@@ -1,0 +1,22 @@
+.app-wraper-a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.app-wraper-b {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.app-wraper-c {
+    min-height: 100%;
+}
+
+.app-wraper-d {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}

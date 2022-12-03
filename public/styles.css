@@ -1,0 +1,52 @@
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 62.5%;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.372rem;
+    line-height: 1.5495;
+    letter-spacing: -.02em;
+    font-family: Helvetica,sans-serif;
+    color: #002f34;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    height: calc(var(--vh, 1%)*100);
+}
+
+.fonts-loaded-ltr body {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.body-wraper-a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.body-wraper-b {
+    min-height: 100%;
+}
+
+fieldset, input, select, textarea {
+    margin-bottom: 1.5rem;
+}

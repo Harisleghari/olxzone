@@ -1,7 +1,12 @@
+import Header from "./components/Header/Header.jsx"
+import "./App.css";
+
 
 function App() {
   return (
-    <h1>OLXZONE</h1>
+    <div className="app -wraper-a app -wraper-b app -wraper-c app -wraper-d">
+      <Header/>
+    </div>
   );
 }
 
