@@ -27,6 +27,10 @@ body {
     height: calc(var(--vh, 1%)*100);
 }
 
+.fonts-loaded-ltr .gm-style, .fonts-loaded-ltr body, .fonts-loaded-ltr button, .fonts-loaded-ltr input, .fonts-loaded-ltr optgroup, .fonts-loaded-ltr select, .fonts-loaded-ltr textarea {
+    font-family: Roboto,Helvetica,sans-serif;
+}
+
 .fonts-loaded-ltr body {
     font-size: 1.4rem;
     line-height: 1.5;
@@ -49,4 +53,9 @@ body {
 
 fieldset, input, select, textarea {
     margin-bottom: 1.5rem;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
 }

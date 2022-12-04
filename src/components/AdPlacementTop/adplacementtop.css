@@ -1,0 +1,10 @@
+.ad-placement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1.6rem 0;
+    background-color: #fff;
+}
