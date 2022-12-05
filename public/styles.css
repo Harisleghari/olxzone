@@ -59,3 +59,30 @@ a {
     color: #222;
     text-decoration: none;
 }
+
+blockquote, dl, figure, nav, ol, p, pre, table, ul {
+    margin-bottom: 4rem;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button .button, li {
+    margin-bottom: 1rem;
+}
+
+img.error, img.initial, img.loaded {
+    opacity: 1;
+}
+
+img.lazy {
+    opacity: 0;
+    -webkit-transition: opacity .1s ease-in;
+    transition: opacity .1s ease-in;
+}

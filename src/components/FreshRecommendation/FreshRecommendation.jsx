@@ -2,28 +2,28 @@ import "./freshrecommendation.css";
 
 const FreshRecommendation = () => {
   return (
-    <div className="main-back-to-top-a main-back-to-top-b main-back-to-top-c main-back-to-top-d main-back-to-top-e">
-      <button className="_0db6bd2f _433ab473 _80a5188a">
+    <div className="main-fresh-recommendation-wrap-a main-fresh-recommendation-wrap-b main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-d main-fresh-recommendation-wrap-e">
+      <button className="main-back-to-top-btn-a main-back-to-top-btn-b main-back-to-top-btn-c">
         <img
-          src="/assets/backToTopIcon_noinline.7b82f4f094ade4510834eaf20d4ce5ab.svg"
-          className="b87dae06"
+          src="https://www.olx.com.pk/assets/backToTopIcon_noinline.7b82f4f094ade4510834eaf20d4ce5ab.svg"
+          className="main-back-to-top-btn-img"
           alt="Icon arrow back to top"
         />
-        <span className="_245becca">Back to top</span>
+        <span className="main-back-to-top-btn-span">Back to top</span>
       </button>
-      <div className="b384f4f3">
-        <span className="_7978e49c a88376c3">Fresh recommendations</span>
-        <ul className="_42a32bfd bcc9fe4f">
+      <div className="main-list-fresh-recom">
+        <span className="main-list-fresh-recom-name-a main-list-fresh-recom-name-b">Fresh recommendations</span>
+        <ul className="main-list-ul-a">
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/original-persian-kittys-iid-1062083337"
                   title="original persian kitty&#x27;s"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -32,7 +32,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598635-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="original persian kitty's"
                       title="original persian kitty's"
                       aria-label="Fallback listing photo"
@@ -48,47 +48,47 @@ const FreshRecommendation = () => {
                     title="original persian kitty&#x27;s"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598635-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/original-persian-kittys-iid-1062083337"
                   title="original persian kitty&#x27;s"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     original persian kitty&#x27;s
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 16,500</span>
                   </div>
                   <a
                     href="/item/original-persian-kittys-iid-1062083337"
                     title="original persian kitty&#x27;s"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pkhttps://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Mughalpura, Lahore<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Mughalpura, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -96,16 +96,16 @@ const FreshRecommendation = () => {
               </div>
             </article>
           </li>
-          <li className="c46f3bfe" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+          <li className="main-list-articles-inside-2nd-div-2-list" aria-label="Listing">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/honda-civic-rs-15-turbo-crystal-black-pearl-with-black-room-2022-iid-1060999945"
                   title="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -114,7 +114,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/303864206-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                       title="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                       aria-label="Fallback listing photo"
@@ -130,46 +130,46 @@ const FreshRecommendation = () => {
                     title="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/303864206-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/honda-civic-rs-15-turbo-crystal-black-pearl-with-black-room-2022-iid-1060999945"
                   title="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK
                     ROOM) (2022)
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 8,400,000</span>
                   </div>
                   <a
                     href="/item/honda-civic-rs-15-turbo-crystal-black-pearl-with-black-room-2022-iid-1060999945"
                     title="HONDA CIVIC RS 1.5 TURBO (CRYSTAL BLACK PEARL WITH BLACK ROOM) (2022)"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
+                <div className="main-list-articles-inside-2nd-div-2">
                   <div className="_0f48f8d1" aria-label="Subtitle">
                     <span className="fef55ec1">
                       <span className="fef55ec1" aria-label="Mileage">
@@ -192,11 +192,11 @@ const FreshRecommendation = () => {
                       </span>
                     </span>
                   </div>
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Multan, Punjab<span className="afdf7bb7">•</span>
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Multan, Punjab<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">4 days ago</span>
                     </span>
                   </div>
@@ -205,15 +205,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/8-marla-back-open-boulevard-plot-sector-i-iid-1061060879"
                   title="8 Marla Back open Boulevard Plot Sector - I"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -222,7 +222,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/304186386-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="8 Marla Back open Boulevard Plot Sector - I"
                       title="8 Marla Back open Boulevard Plot Sector - I"
                       aria-label="Fallback listing photo"
@@ -238,51 +238,51 @@ const FreshRecommendation = () => {
                     title="8 Marla Back open Boulevard Plot Sector - I"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/304186386-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/8-marla-back-open-boulevard-plot-sector-i-iid-1061060879"
                   title="8 Marla Back open Boulevard Plot Sector - I"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     8 Marla Back open Boulevard Plot Sector - I
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 12,000,000</span>
                   </div>
                   <a
                     href="/item/8-marla-back-open-boulevard-plot-sector-i-iid-1061060879"
                     title="8 Marla Back open Boulevard Plot Sector - I"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Bahria Enclave, Islamabad
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">2 weeks ago</span>
                     </span>
                   </div>
@@ -291,15 +291,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/best-perfomance-dell-3490-8th-gen-ci5-quadcore-hd-qty-available-iid-1061245634"
                   title="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -308,7 +308,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/305183308-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                       title="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                       aria-label="Fallback listing photo"
@@ -324,51 +324,51 @@ const FreshRecommendation = () => {
                     title="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/305183308-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/best-perfomance-dell-3490-8th-gen-ci5-quadcore-hd-qty-available-iid-1061245634"
                   title="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Best Perfomance Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty
                     Available
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 57,000</span>
                   </div>
                   <a
                     href="/item/best-perfomance-dell-3490-8th-gen-ci5-quadcore-hd-qty-available-iid-1061245634"
                     title="Best Perfomance  Dell 3490 - 8th Gen Ci5 QuadCore HD+ Qty Available"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Bahadurabad, Karachi<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Bahadurabad, Karachi<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">2 weeks ago</span>
                     </span>
                   </div>
@@ -377,15 +377,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/matrice-300-rtk-drone-camera-for-sale-sale-sale-iid-1045061349"
                   title="MATRICE 300 RTK drone camera for sale sale sale"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -394,7 +394,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/220293476-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="MATRICE 300 RTK drone camera for sale sale sale"
                       title="MATRICE 300 RTK drone camera for sale sale sale"
                       aria-label="Fallback listing photo"
@@ -410,50 +410,50 @@ const FreshRecommendation = () => {
                     title="MATRICE 300 RTK drone camera for sale sale sale"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/220293476-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/matrice-300-rtk-drone-camera-for-sale-sale-sale-iid-1045061349"
                   title="MATRICE 300 RTK drone camera for sale sale sale"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     MATRICE 300 RTK drone camera for sale sale sale
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 1,400,000</span>
                   </div>
                   <a
                     href="/item/matrice-300-rtk-drone-camera-for-sale-sale-sale-iid-1045061349"
                     title="MATRICE 300 RTK drone camera for sale sale sale"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Others, Loralai<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Others, Loralai<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">3 weeks ago</span>
                     </span>
                   </div>
@@ -462,8 +462,8 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="_312521bd">
-            <div className="main-back-to-top-a b8cffb80 _8a9ae250 _96d4439a main-back-to-top-c main-back-to-top-e">
-              <div className="main-back-to-top-a _96d4439a main-back-to-top-c main-back-to-top-e">
+            <div className="main-fresh-recommendation-wrap-a b8cffb80 _8a9ae250 _96d4439a main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-e">
+              <div className="main-fresh-recommendation-wrap-a _96d4439a main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-e">
                 <span className="_261203a9 _2e82a662">
                   Want to see your stuff here?
                 </span>
@@ -480,15 +480,15 @@ const FreshRecommendation = () => {
             </div>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/maids-baby-sitters-patients-house-helper-office-boy-chefs-nurses-iid-1059222933"
                   title="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -497,7 +497,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/303650868-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                       title="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                       aria-label="Fallback listing photo"
@@ -513,23 +513,23 @@ const FreshRecommendation = () => {
                     title="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/303650868-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/maids-baby-sitters-patients-house-helper-office-boy-chefs-nurses-iid-1059222933"
                   title="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Maids Baby sitters Patients House Helper Office Boy Chefs
                     Nurses
                   </div>
@@ -537,24 +537,24 @@ const FreshRecommendation = () => {
                     href="/item/maids-baby-sitters-patients-house-helper-office-boy-chefs-nurses-iid-1059222933"
                     title="Maids Baby sitters Patients House Helper Office Boy  Chefs Nurses"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Township, Lahore<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Township, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">3 weeks ago</span>
                     </span>
                   </div>
@@ -563,15 +563,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/treadmill-03365759107-iid-1062049975"
                   title="Treadmill 03365759107"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -580,7 +580,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309413960-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Treadmill 03365759107"
                       title="Treadmill 03365759107"
                       aria-label="Fallback listing photo"
@@ -596,51 +596,51 @@ const FreshRecommendation = () => {
                     title="Treadmill 03365759107"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309413960-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/treadmill-03365759107-iid-1062049975"
                   title="Treadmill 03365759107"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Treadmill 03365759107
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 165,000</span>
                   </div>
                   <a
                     href="/item/treadmill-03365759107-iid-1062049975"
                     title="Treadmill 03365759107"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Abid Majeed Road, Rawalpindi
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">11 hours ago</span>
                     </span>
                   </div>
@@ -649,15 +649,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/huawei-p9-lite-316gb-iid-1062083332"
                   title="Huawei P9 lite 3/16gb"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -666,7 +666,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598619-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Huawei P9 lite 3/16gb"
                       title="Huawei P9 lite 3/16gb"
                       aria-label="Fallback listing photo"
@@ -682,47 +682,47 @@ const FreshRecommendation = () => {
                     title="Huawei P9 lite 3/16gb"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598619-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/huawei-p9-lite-316gb-iid-1062083332"
                   title="Huawei P9 lite 3/16gb"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Huawei P9 lite 3/16gb
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 8,500</span>
                   </div>
                   <a
                     href="/item/huawei-p9-lite-316gb-iid-1062083332"
                     title="Huawei P9 lite 3/16gb"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Others, Hazro<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Others, Hazro<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -731,15 +731,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/cnc-vertical-machining-center-milling-machine-iid-1062006164"
                   title="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -748,7 +748,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309171304-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                       title="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                       aria-label="Fallback listing photo"
@@ -764,50 +764,50 @@ const FreshRecommendation = () => {
                     title="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309171304-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/cnc-vertical-machining-center-milling-machine-iid-1062006164"
                   title="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     CNC VERTICAL MACHINING CENTER MILLING MACHINE
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 1,500,000</span>
                   </div>
                   <a
                     href="/item/cnc-vertical-machining-center-milling-machine-iid-1062006164"
                     title="CNC VERTICAL MACHINING CENTER MILLING MACHINE"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Gulberg 3, Lahore<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Gulberg 3, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">1 day ago</span>
                     </span>
                   </div>
@@ -816,12 +816,12 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a href="/item/honda-125cc-iid-1062083331" title="Honda 125cc">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -830,7 +830,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598618-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Honda 125cc"
                       title="Honda 125cc"
                       aria-label="Fallback listing photo"
@@ -846,45 +846,45 @@ const FreshRecommendation = () => {
                     title="Honda 125cc"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598618-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a href="/item/honda-125cc-iid-1062083331" title="Honda 125cc">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Honda 125cc
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 90,000</span>
                   </div>
                   <a
                     href="/item/honda-125cc-iid-1062083331"
                     title="Honda 125cc"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Airport Avenue Housing Society, Islamabad
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -893,15 +893,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/5-marla-c-block-plot-for-sale-in-jinnah-sector-lda-city-lahore-iid-1060872514"
                   title="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -910,7 +910,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/303196745-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                       title="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                       aria-label="Fallback listing photo"
@@ -926,52 +926,52 @@ const FreshRecommendation = () => {
                     title="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/303196745-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/5-marla-c-block-plot-for-sale-in-jinnah-sector-lda-city-lahore-iid-1060872514"
                   title="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     5 Marla C Block Plot For Sale In Jinnah Sector Lda City
                     Lahore
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 3,950,000</span>
                   </div>
                   <a
                     href="/item/5-marla-c-block-plot-for-sale-in-jinnah-sector-lda-city-lahore-iid-1060872514"
                     title="5 Marla C Block Plot For Sale In Jinnah Sector Lda City Lahore"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       LDA City Phase 1 - Jinnah Sector, Lahore
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">10 hours ago</span>
                     </span>
                   </div>
@@ -979,16 +979,16 @@ const FreshRecommendation = () => {
               </div>
             </article>
           </li>
-          <li className="c46f3bfe" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+          <li className="main-list-articles-inside-2nd-div-2-list" aria-label="Listing">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/daihatsu-cuore-model-2008-iid-1062083330"
                   title="Daihatsu Cuore Model 2008"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -997,7 +997,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598608-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Daihatsu Cuore Model 2008"
                       title="Daihatsu Cuore Model 2008"
                       aria-label="Fallback listing photo"
@@ -1013,42 +1013,42 @@ const FreshRecommendation = () => {
                     title="Daihatsu Cuore Model 2008"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598608-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/daihatsu-cuore-model-2008-iid-1062083330"
                   title="Daihatsu Cuore Model 2008"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Daihatsu Cuore Model 2008
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 650,000</span>
                   </div>
                   <a
                     href="/item/daihatsu-cuore-model-2008-iid-1062083330"
                     title="Daihatsu Cuore Model 2008"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
+                <div className="main-list-articles-inside-2nd-div-2">
                   <div className="_0f48f8d1" aria-label="Subtitle">
                     <span className="fef55ec1">
                       <span className="fef55ec1" aria-label="Mileage">
@@ -1071,11 +1071,11 @@ const FreshRecommendation = () => {
                       </span>
                     </span>
                   </div>
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Saeedabad, Karachi<span className="afdf7bb7">•</span>
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Saeedabad, Karachi<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -1084,15 +1084,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/iptv-services-movies-live-tv-shows-seasons-web-series-hd-fhd-uhd-iid-1051401710"
                   title="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1101,7 +1101,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/253394825-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                       title="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                       aria-label="Fallback listing photo"
@@ -1117,23 +1117,23 @@ const FreshRecommendation = () => {
                     title="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/253394825-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/iptv-services-movies-live-tv-shows-seasons-web-series-hd-fhd-uhd-iid-1051401710"
                   title="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     iptv Services, Movies, Live TV, Shows, Seasons, Web Series,
                     HD FHD UHD
                   </div>
@@ -1141,25 +1141,25 @@ const FreshRecommendation = () => {
                     href="/item/iptv-services-movies-live-tv-shows-seasons-web-series-hd-fhd-uhd-iid-1051401710"
                     title="iptv Services, Movies, Live TV, Shows, Seasons, Web Series, HD FHD UHD"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Fatima Jinnah Town, Multan
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">4 weeks ago</span>
                     </span>
                   </div>
@@ -1167,16 +1167,16 @@ const FreshRecommendation = () => {
               </div>
             </article>
           </li>
-          <li className="c46f3bfe" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+          <li className="main-list-articles-inside-2nd-div-2-list" aria-label="Listing">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/fully-renovated-house-with-big-70-feet-front-iid-1060295964"
                   title="Fully Renovated House With Big 70 Feet Front"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1185,7 +1185,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/300161548-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Fully Renovated House With Big 70 Feet Front"
                       title="Fully Renovated House With Big 70 Feet Front"
                       aria-label="Fallback listing photo"
@@ -1201,45 +1201,45 @@ const FreshRecommendation = () => {
                     title="Fully Renovated House With Big 70 Feet Front"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/300161548-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
                 <div className="_3ae103e1" aria-label="Featured">
                   <span className="_151bf64f">Featured</span>
                 </div>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398 f289a80e">
+              <div className="main-list-articles-inside-2nd-div f289a80e">
                 <a
                   href="/item/fully-renovated-house-with-big-70-feet-front-iid-1060295964"
                   title="Fully Renovated House With Big 70 Feet Front"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Fully Renovated House With Big 70 Feet Front
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 225,000,000</span>
                   </div>
                   <a
                     href="/item/fully-renovated-house-with-big-70-feet-front-iid-1060295964"
                     title="Fully Renovated House With Big 70 Feet Front"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
+                <div className="main-list-articles-inside-2nd-div-2">
                   <div className="_0f48f8d1" aria-label="Subtitle">
                     <span className="fef55ec1">
                       <span className="fef55ec1 c47715cd" aria-label="Bedrooms">
@@ -1292,11 +1292,11 @@ const FreshRecommendation = () => {
                       </span>
                     </span>
                   </div>
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      F-7, Islamabad<span className="afdf7bb7">•</span>
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      F-7, Islamabad<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">4 weeks ago</span>
                     </span>
                   </div>
@@ -1305,12 +1305,12 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a href="/item/vivo-y67-iid-1062083328" title="Vivo y67">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1319,7 +1319,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598590-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Vivo y67"
                       title="Vivo y67"
                       aria-label="Fallback listing photo"
@@ -1335,41 +1335,41 @@ const FreshRecommendation = () => {
                     title="Vivo y67"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598590-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a href="/item/vivo-y67-iid-1062083328" title="Vivo y67">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Vivo y67
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 12,000</span>
                   </div>
                   <a href="/item/vivo-y67-iid-1062083328" title="Vivo y67">
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      DHA Phase 5, Lahore<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      DHA Phase 5, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -1378,15 +1378,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/steam-inhaler-iid-1062083326"
                   title="steam inhaler"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1395,7 +1395,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598584-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="steam inhaler"
                       title="steam inhaler"
                       aria-label="Fallback listing photo"
@@ -1411,47 +1411,47 @@ const FreshRecommendation = () => {
                     title="steam inhaler"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598584-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/steam-inhaler-iid-1062083326"
                   title="steam inhaler"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     steam inhaler
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 2,999</span>
                   </div>
                   <a
                     href="/item/steam-inhaler-iid-1062083326"
                     title="steam inhaler"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Mughalpura, Lahore<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Mughalpura, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -1460,15 +1460,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/treadmill-manual-031115-20143-iid-1062083324"
                   title="treadmill manual. 0311.15. 20.143."
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1477,7 +1477,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598576-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="treadmill manual. 0311.15. 20.143."
                       title="treadmill manual. 0311.15. 20.143."
                       aria-label="Fallback listing photo"
@@ -1493,45 +1493,45 @@ const FreshRecommendation = () => {
                     title="treadmill manual. 0311.15. 20.143."
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598576-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/treadmill-manual-031115-20143-iid-1062083324"
                   title="treadmill manual. 0311.15. 20.143."
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     treadmill manual. 0311.15. 20.143.
                   </div>
                   <a
                     href="/item/treadmill-manual-031115-20143-iid-1062083324"
                     title="treadmill manual. 0311.15. 20.143."
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Karimabad Housing Society, Mirpur Khas
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
                     </span>
                   </div>
@@ -1540,12 +1540,12 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a href="/item/mobile-iid-1062083321" title="Mobile">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1554,7 +1554,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598565-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="Mobile"
                       title="Mobile"
                       aria-label="Fallback listing photo"
@@ -1570,41 +1570,41 @@ const FreshRecommendation = () => {
                     title="Mobile"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598565-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a href="/item/mobile-iid-1062083321" title="Mobile">
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     Mobile
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 21,000</span>
                   </div>
                   <a href="/item/mobile-iid-1062083321" title="Mobile">
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Paposh Nagar, Karachi<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Paposh Nagar, Karachi<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">1 minute ago</span>
                     </span>
                   </div>
@@ -1613,15 +1613,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/only-bad-for-sale-urfently-full-ok-109-condition-iid-1062083320"
                   title="only bad for sale urfently full ok 10/9 condition"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1630,7 +1630,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598564-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="only bad for sale urfently full ok 10/9 condition"
                       title="only bad for sale urfently full ok 10/9 condition"
                       aria-label="Fallback listing photo"
@@ -1646,47 +1646,47 @@ const FreshRecommendation = () => {
                     title="only bad for sale urfently full ok 10/9 condition"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598564-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/only-bad-for-sale-urfently-full-ok-109-condition-iid-1062083320"
                   title="only bad for sale urfently full ok 10/9 condition"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     only bad for sale urfently full ok 10/9 condition
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 19,500</span>
                   </div>
                   <a
                     href="/item/only-bad-for-sale-urfently-full-ok-109-condition-iid-1062083320"
                     title="only bad for sale urfently full ok 10/9 condition"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
-                      Tehkal, Peshawar<span className="afdf7bb7">•</span>
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      Tehkal, Peshawar<span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">1 minute ago</span>
                     </span>
                   </div>
@@ -1695,15 +1695,15 @@ const FreshRecommendation = () => {
             </article>
           </li>
           <li className="" aria-label="Listing">
-            <article className="_459428ad">
-              <div className="_2ab773c1">
+            <article className="main-list-articles">
+              <div className="main-list-articles-inside-div">
                 <a
                   href="/item/03034846246-contact-on-this-number-iid-1062083319"
                   title="03034846246 contact on this number"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <picture className="_219b7e0a">
+                <picture className="main-list-arcticles-images">
                   <noscript>
                     <source
                       type="image/webp"
@@ -1712,7 +1712,7 @@ const FreshRecommendation = () => {
                     <img
                       role="presentation"
                       src="https://images.olx.com.pk/thumbnails/309598560-240x180.jpeg"
-                      className="_943b7102"
+                      className="main-list-articles-inside-div-images-1"
                       alt="03034846246 contact on this number"
                       title="03034846246 contact on this number"
                       aria-label="Fallback listing photo"
@@ -1728,48 +1728,48 @@ const FreshRecommendation = () => {
                     title="03034846246 contact on this number"
                     aria-label="Cover photo"
                     data-src="https://images.olx.com.pk/thumbnails/309598560-240x180.jpeg"
-                    className="_943b7102 lazy"
+                    className="main-list-articles-inside-div-images-1 lazy"
                   />
                 </picture>
-                <div className="_0e79e5fd _3f5d6c8c"></div>
+                <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
-              <div className="d737f398">
+              <div className="main-list-articles-inside-2nd-div">
                 <a
                   href="/item/03034846246-contact-on-this-number-iid-1062083319"
                   title="03034846246 contact on this number"
                 >
-                  <div className="_193d9c7f"></div>
+                  <div className="main-list-arcticles-anchor-inside-div"></div>
                 </a>
-                <div className="_41d2b9f3">
-                  <div className="_3e9da9c1" aria-label="Title">
+                <div className="main-list-articles-inside-2nd-div-1">
+                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     03034846246 contact on this number
                   </div>
-                  <div className="_88d4ee64" aria-label="Price">
+                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 43,000</span>
                   </div>
                   <a
                     href="/item/03034846246-contact-on-this-number-iid-1062083319"
                     title="03034846246 contact on this number"
                   >
-                    <div className="_193d9c7f"></div>
+                    <div className="main-list-arcticles-anchor-inside-div"></div>
                   </a>
-                  <div className="c318f1ef">
-                    <div className="main-back-to-top-a">
+                  <div className="main-list-articles-inside-2nd-div-1-b">
+                    <div className="main-fresh-recommendation-wrap-a">
                       <img
-                        src="/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="_3c2d02e2"
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        className="main-list-articles-inside-2nd-div-1-b-img"
                         alt="favoriteIconUnselected"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="_5ea5614c">
-                  <div className="afabcb7f">
-                    <span className="_424bf2a8" aria-label="Location">
+                <div className="main-list-articles-inside-2nd-div-2">
+                  <div className="main-list-articles-inside-2nd-div-2-a">
+                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
                       Chungi Amar Sadhu, Lahore
-                      <span className="afdf7bb7">•</span>
+                      <span className="main-list-articles-inside-2nd-div-2-location">•</span>
                     </span>
-                    <span className="_2e28a695">
+                    <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">1 minute ago</span>
                     </span>
                   </div>

@@ -2,131 +2,131 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="c3e139e2">
-      <div class="_441d6f8e">
-        <div class="_035521cc _9c7676e3">
-          <section class="_363e0a79">
-            <span class="_34a7409b _2e82a662 a695f1e9">Popular Categories</span>
-            <ul class="_022cac30">
+    <footer class="footer">
+      <div class="footer-div-a">
+        <div class="footer-div-b footer-div-c">
+          <section class="footer-section-a">
+            <span class="footer-span-a footer-span-b footer-span-c">Popular Categories</span>
+            <ul class="footer-ul">
               <li>
-                <a href="/cars_c84" class="ceaf1e75">
-                  <span class="_8918c0a8">Cars</span>
+                <a href="/cars_c84" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Cars</span>
                 </a>
               </li>
               <li>
-                <a href="/apartments-flats_c1723" class="ceaf1e75">
-                  <span class="_8918c0a8">Flats for rent</span>
+                <a href="/apartments-flats_c1723" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Flats for rent</span>
                 </a>
               </li>
               <li>
-                <a href="/mobile-phones_c1453" class="ceaf1e75">
-                  <span class="_8918c0a8">Mobile Phones</span>
+                <a href="/mobile-phones_c1453" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Mobile Phones</span>
                 </a>
               </li>
               <li>
-                <a href="/jobs_c4" class="ceaf1e75">
-                  <span class="_8918c0a8">Jobs</span>
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section class="_363e0a79">
-            <span class="_34a7409b _2e82a662 a695f1e9">Trending Searches</span>
-            <ul class="_022cac30">
-              <li>
-                <a href="/motorcycles_c81" class="ceaf1e75">
-                  <span class="_8918c0a8">Bikes</span>
-                </a>
-              </li>
-              <li>
-                <a href="/watches_c1970" class="ceaf1e75">
-                  <span class="_8918c0a8">Watches</span>
-                </a>
-              </li>
-              <li>
-                <a href="/items/q-books" class="ceaf1e75">
-                  <span class="_8918c0a8">Books</span>
-                </a>
-              </li>
-              <li>
-                <a href="/items/q-dogs" class="ceaf1e75">
-                  <span class="_8918c0a8">Dogs</span>
+                <a href="/jobs_c4" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Jobs</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="_363e0a79">
-            <span class="_34a7409b _2e82a662 a695f1e9">About Us</span>
-            <ul class="_022cac30">
+          <section class="footer-section-a">
+            <span class="footer-spna-a footer-span-b footer-span-c">Trending Searches</span>
+            <ul class="footer-ul">
               <li>
-                <a href="https://www.empg.com/" class="ceaf1e75">
-                  <span class="_8918c0a8">About EMPG</span>
+                <a href="/motorcycles_c81" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Bikes</span>
                 </a>
               </li>
               <li>
-                <a href="https://blog.olx.com.pk/" class="ceaf1e75">
-                  <span class="_8918c0a8">OLX Blog</span>
+                <a href="/watches_c1970" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Watches</span>
+                </a>
+              </li>
+              <li>
+                <a href="/items/q-books" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Books</span>
+                </a>
+              </li>
+              <li>
+                <a href="/items/q-dogs" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Dogs</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-section-a">
+            <span class="footer-spna-a footer-span-b footer-span-c">About Us</span>
+            <ul class="footer-ul">
+              <li>
+                <a href="https://www.empg.com/" class="footer-ul-anchor">
+                  <span class="footer-ul-span">About EMPG</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://blog.olx.com.pk/" class="footer-ul-anchor">
+                  <span class="footer-ul-span">OLX Blog</span>
                 </a>
               </li>
               <li>
                 <a
                   href="https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-"
-                  class="ceaf1e75"
+                  class="footer-ul-anchor"
                 >
-                  <span class="_8918c0a8">Contact Us</span>
+                  <span class="footer-ul-span">Contact Us</span>
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website"
-                  class="ceaf1e75"
+                  class="footer-ul-anchor"
                 >
-                  <span class="_8918c0a8">OLX for Businesses</span>
+                  <span class="footer-ul-span">OLX for Businesses</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="_363e0a79">
-            <span class="_34a7409b _2e82a662 a695f1e9">OLX</span>
-            <ul class="_022cac30">
+          <section class="footer-section-a">
+            <span class="footer-spna-a footer-span-b footer-span-c">OLX</span>
+            <ul class="footer-ul">
               <li>
-                <a href="https://help.olx.com.pk/hc/en-us" class="ceaf1e75">
-                  <span class="_8918c0a8">Help</span>
+                <a href="https://help.olx.com.pk/hc/en-us" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Help</span>
                 </a>
               </li>
               <li>
-                <a href="/sitemap/most-popular" class="ceaf1e75">
-                  <span class="_8918c0a8">Sitemap</span>
+                <a href="/sitemap/most-popular" class="footer-ul-anchor">
+                  <span class="footer-ul-span">Sitemap</span>
                 </a>
               </li>
               <li>
                 <a
                   href="https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-"
-                  class="ceaf1e75"
+                  class="footer-ul-anchor"
                 >
-                  <span class="_8918c0a8">Terms of use</span>
+                  <span class="footer-ul-span">Terms of use</span>
                 </a>
               </li>
               <li>
                 <a
                   href="https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information"
-                  class="ceaf1e75"
+                  class="footer-ul-anchor"
                 >
-                  <span class="_8918c0a8">Privacy Policy</span>
+                  <span class="footer-ul-span">Privacy Policy</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="b5d24b44">
-            <span class="_34a7409b _2e82a662 a695f1e9">Follow us</span>
-            <div class="_1075545d _3a13e88c _96d4439a">
+          <section class="footer-section-b">
+            <span class="footer-spna-a footer-span-b footer-span-c">Follow us</span>
+            <div class="footer-icons-a footer-icons-b footer-icons-c">
               <a
                 href="https://www.facebook.com/olxpakistan"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
+                  src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
                   alt="Facebook Logo"
                 />
               </a>
@@ -136,7 +136,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
+                  src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
                   alt="Twitter Logo"
                 />
               </a>
@@ -146,7 +146,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
+                  src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
                   alt="Youtube Logo"
                 />
               </a>
@@ -156,21 +156,21 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
+                  src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
                   alt="Instagram Logo"
                 />
               </a>
             </div>
-            <div class="_1075545d _7ed1ca2f _96d4439a">
+            <div class="footer-icons-a footer-apps-a footer-icons-c">
               <a
                 href="https://apps.apple.com/pk/app/olx-pakistan/id1551315538"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                  src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
                   alt="App Store"
-                  class="ac2bfae3"
+                  class="footer-apps-imges"
                 />
               </a>
               <a
@@ -179,9 +179,9 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                  src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
                   alt="Google Play"
-                  class="ac2bfae3"
+                  class="footer-apps-imges"
                 />
               </a>
               <a
@@ -190,18 +190,18 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
+                  src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
                   alt="App Gallery"
-                  class="ac2bfae3"
+                  class="footer-apps-imges"
                 />
               </a>
             </div>
           </section>
         </div>
       </div>
-      <div class="b49f6016">
-        <div class="_035521cc">
-          <div class="_8bdcd3a2">
+      <div class="footer-last-row">
+        <div class="footer-div-b">
+          <div class="footer-last-row-div">
             <span>Free Classifieds in Pakistan</span> . © 2006-2022 OLX
           </div>
         </div>
