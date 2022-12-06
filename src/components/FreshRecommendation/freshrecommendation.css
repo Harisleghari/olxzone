@@ -88,12 +88,8 @@
 }
 
 .main-list-fresh-recom-name-a {
-    font-size: 1.988rem;
-}
-
-.main-list-fresh-recom-name-b {
+    font-size: 2.394rem;
     display: block;
-    font-size: 1.596rem;
     color: #002f34;
     margin-bottom: 0.8rem;
 }
@@ -203,8 +199,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #002f34;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 3.8rem;
     @inline .title from "./adCard.cssm": ;
     white-space: unset;
     display: -webkit-inline-box;
@@ -266,7 +262,3 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-/* .main-list-articles-inside-2nd-div-2-list {
-
-} */

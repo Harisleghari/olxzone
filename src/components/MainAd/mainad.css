@@ -1,111 +1,20 @@
-.main-ad-a {
-  width: calc(100% - 3.2rem);
-  margin: 1.6rem 1.6rem 0;
-  position: relative;
+.carousel-indicators-custom {
+  z-index: index;
+  bottom: 15px;
 }
 
-.style-ad {
-  overflow-x: hidden;
-  padding: 0px calc(0%);
-}
-
-.react-swipeable-view-container {
-  flex-direction: row;
-  transition: all 0s ease 0s;
-  direction: ltr;
-  display: flex;
-  will-change: transform;
-  transform: translate(-100%, 0px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-}
-
-.react-swipeable-view-container-a {
+.carousel-item-custom {
+  margin: 85px 1px;
   width: 100%;
-  flex-shrink: 0;
-  overflow: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
-.swipeable-ads-1 {
-  height: 18rem;
-  width: 1280px;
-  margin: 0.8rem auto;
-}
-
-.swipeable-ads-2 {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border-radius: 4px;
-  height: 18rem;
-  width: 1280px;
-}
-
-.swipeable-ads-3 {
-  height: 100%;
-  background-color: #fff;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.swipeable-ads-2-pic {
-  width: 100%;
-  height: 100%;
+.carousel-item--caption-custom {
+  right: 2.5%;
+  left: 2.5%;
 }
 
 .img-main-ad {
   object-fit: cover;
   width: 100%;
-  height: 100%;
-}
-
-.slider-button-main {
-    margin-bottom: 1.2rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.slider-button-main-a {
-    padding: 0.4rem 0;
-    cursor: pointer;
-}
-
-.slider-button-main-b {
-    width: 2.5rem;
-    height: 0.2rem;
-    background-color: #fff;
-    opacity: .5;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-}
-
-.slider-button-main-c {
-    opacity: 1;
+  height: 100mvh;
 }

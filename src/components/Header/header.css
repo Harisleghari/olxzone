@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 6;
+    margin-top: -10px;
 }
 
 .header-div-a-1 {
@@ -35,12 +36,14 @@
 .header-div-a-logo {
     margin-right: 2rem;
     margin-left: 4rem;
+    margin-top: 10px;
 }
 
 .header-div-a-logo-1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 15px;
 }
 
 .header-div-a-logo-2 {

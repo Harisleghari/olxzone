@@ -113,10 +113,10 @@ const Header = () => {
                     </svg>
                   </div>
                   <input
+                    type="text"
                     spellcheck="false"
                     className="input-location-a"
                     autoComplete="location-search"
-                    value=""
                     placeholder="Search city, area or locality"
                   />
                   <div className="input-location-drop-a input-location-drop-b">
@@ -146,7 +146,6 @@ const Header = () => {
                       spellcheck="false"
                       className="find-bar-search-inp"
                       autoComplete="free-text-search"
-                      value=""
                       placeholder="Find Cars, Mobile Phones and more..."
                     />
                   </div>
