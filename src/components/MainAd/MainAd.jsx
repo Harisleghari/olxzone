@@ -56,7 +56,7 @@ const MainAd = () => {
           <div class="container carousel-item-custom">
             <div class="carousel-caption carousel-item--caption-custom">
               <img
-                src="https://images.olx.com.pk/thumbnails/309500294-800x600.webp"
+                src="https://images.olx.com.pk/thumbnails/310378076-800x600.webp"
                 alt="zong img"
                 loading="auto"
                 className="img-main-ad"

@@ -1,27 +1,28 @@
-import Header from "./components/Header/Header.jsx";
-import MainCategories from "./components/MainCategories/MainCategories.jsx";
-import MainAdd from "./components/MainAd/MainAd.jsx";
-import AdPlacementTop from "./components/AdPlacementTop/AdPlacementTop.jsx";
-import FreshRecommendation from "./components/FreshRecommendation/FreshRecommendation.jsx";
-import AdPlacementBottom  from "./components/AdPlacementBottom/AdPlacementBottom.jsx";
-import TryApp from "./components/TryApp/TryApp.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+
+import HomePage from "./components/HomePage/HomePage.jsx";
+import ListingPage from "./components/ListingPage/ListingPage.jsx";
+import ListPage from "./components/ListPage/ListPage.jsx";
+
+import {BrowserRouter, Routes, Route} from "react-router-dom"; 
 
 import "./App.css";
 
 
 function App() {
   return (
-    <div className="app -wraper-a app -wraper-b app -wraper-c app -wraper-d">
-      <Header/>
-      <MainCategories />
-      <MainAdd />
-      <AdPlacementTop />
-      <FreshRecommendation />
-      <AdPlacementBottom />
-      <TryApp />
-      <Footer />
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/listing" element={<ListingPage />}/>
+        <Route path="/list" element={<ListPage />}/>
+      </Routes>
+      </BrowserRouter>
     </div>
+
+    // <div className="app-wraper-a app-wraper-b app-wraper-c app-wraper-d">
+    
+    // </div>
   );
 }
 

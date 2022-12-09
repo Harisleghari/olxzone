@@ -1,6 +1,12 @@
+import { useState } from "react";
 import "./maincategories.css";
 
 const MainCategories = () => {
+  const [mode, setMode] = useState(true);
+
+  const clickHandler = () => {
+    setMode(!mode);
+  }
   return (
     <div className="main-categories-div">
       <div className="main-categories-div-a main-categories-div-b">
@@ -11,10 +17,13 @@ const MainCategories = () => {
               src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
               className="main-all-categories-div-a-img"
               alt="Dropdown arrow"
+              onClick={clickHandler}
             />
+
+            
           </div>
           <div>
-            <div style={{display: "none"}}>
+            <div style={mode? {display:"none" }: {display:"block"}} id="dropdown">
               <div className="all-categories-dropdown-a" aria-label="Categories">
                 <div className="all-categories-dropdown-a-1">
                   <div className="all-categories-dropdown-a-1-a">

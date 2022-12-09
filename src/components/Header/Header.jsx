@@ -1,15 +1,23 @@
+import { useState } from "react";
+// import CheckBox from "../CheckBox/CheckBox";
 import "./header.css";
 
 const Header = () => {
+  const [mode, setMode] = useState(true);
+
+  const clickHandle = () => {
+    setMode(!mode);
+  }
+
   return (
     <header className="header-a">
       <div className="header-div-a-1 header-div-a-2">
         <div classNameName="header-div-a-logo">
-          <a href="/" className="header-div-a-logo-1 header-div-a-logo-2">
+          <a href="/" className="header-div-a-logo-1">
             <svg
               height="20"
               viewBox="0 0 36.289 20.768"
-              alt="Olxzone logo"
+              alt="Olx logo"
               className="svg-logo-a"
             >
               <path d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z"></path>
@@ -49,13 +57,16 @@ const Header = () => {
             <path d="M12 16a1.2 1.2 0 1 0 1.1 1.2A1.2 1.2 0 0 0 12 16zm0 1.6a.4.4 0 1 1 .3-.4.4.4 0 0 1-.4.4zm9.6-1.6a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2zm0 1.6a.4.4 0 1 1 .5-.4.4.4 0 0 1-.5.4zm-7.8.2h6v.8h-6z"></path>
           </svg>
         </a>
-        <a href="https://www.olx.com.pk/properties/" className="header-div-a-logo">
+        <a
+          href="https://www.olx.com.pk/properties/"
+          className="header-div-a-logo"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="97.25"
             height="33"
             alt="OLX Property"
-            className="svg-property-a"
+            className="svg-motors-a"
           >
             <defs>
               <linearGradient
@@ -85,7 +96,7 @@ const Header = () => {
       </div>
       <div className="header-div-a-1 header-div-b-2">
         <div className="main-logo">
-          <a href="/" className="main-logo-a">
+          <a href="/">
             <svg
               height="20"
               viewBox="0 0 36.289 20.768"
@@ -96,105 +107,110 @@ const Header = () => {
             </svg>
           </a>
         </div>
-        <div className="header-inp-location">
-          <div className="header-inp-location-div-a" aria-label="Location input">
-            <div>
-              <div className="header-inp-location-div-b">
-                <div className="header-inp-location-div-b-1 header-inp-location-div-b-2">
-                  <div className="header-inp-location-search-icon-1 header-inp-location-search-icon-2 header-inp-location-search-icon-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="25"
-                      height="25"
-                      viewBox="0 0 1024 1024"
-                      className="svg-main-inp-a"
-                    >
-                      <path d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"></path>
-                    </svg>
-                  </div>
-                  <input
-                    type="text"
-                    spellcheck="false"
-                    className="input-location-a"
-                    autoComplete="location-search"
-                    placeholder="Search city, area or locality"
-                  />
-                  <div className="input-location-drop-a input-location-drop-b">
-                    <img
-                      src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
-                      alt="Dropdown trigger"
-                      className="dropdown-trigger-a"
-                    />
-                  </div>
-                </div>
-                <div className="location-last-div"></div>
+        <div className="header-inp-location" aria-label="Location input">
+          <div>
+            <div className="header-inp-location-div-b-1 header-inp-location-div-b-2">
+              <div className="header-inp-location-search-icon-1 header-inp-location-search-icon-2 header-inp-location-search-icon-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 1024 1024"
+                  className="svg-main-inp-a"
+                >
+                  <path d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"></path>
+                </svg>
               </div>
+              <input
+                type="text"
+                spellcheck="false"
+                className="input-location-a"
+                autoComplete="location-search"
+                placeholder="Search city, area or locality"
+              />
+              <div className="input-location-drop-a input-location-drop-b">
+                <img
+                  src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+                  alt="Dropdown trigger"
+                  className="dropdown-trigger-a"
+                  onClick = {clickHandle}
+                />
+              </div>
+            </div>
+            <div className="location-dropdown" aria-label="Locations Dropdown" style={mode? {display: "none"}: {display:"block"}}>
+            <div className="current-location-div-a current-location-div-b current-location-div-c">
+              <div className="current-location-div-a-1 current-location-div-b-1 current-location-div-c-1">
+                <img src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg" alt="icon current location" />
+                <div className="current-location-text-wrap">
+                <span className="current-location-text-wrap-span-a current-location-text-wrap-span-b">Use current location</span>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
         <div className="find-bar">
           <div className="find-bar-a">
-            <div>
-              <div
-                aria-label="Search input"
-                className="find-bar-search-a find-bar-search-b"
-              >
-                <div className="find-bar-search-c">
-                  <div className="find-bar-search-d find-bar-search-e">
-                    <input
-                      type="search"
-                      spellcheck="false"
-                      className="find-bar-search-inp"
-                      autoComplete="free-text-search"
-                      placeholder="Find Cars, Mobile Phones and more..."
-                    />
-                  </div>
-                  <div className="find-bar-search-f"></div>
+            <div
+              aria-label="Search input"
+              className="find-bar-search-a find-bar-search-b"
+            >
+              <div className="find-bar-search-c">
+                <div className="find-bar-search-d find-bar-search-e">
+                  <input
+                    type="search"
+                    spellcheck="false"
+                    className="find-bar-search-inp"
+                    autoComplete="free-text-search"
+                    placeholder="Find Cars, Mobile Phones and more..."
+                  />
+                  {/* <CheckBox /> */}
                 </div>
-                <button
-                  aria-label="Search"
-                  className="find-bar-search-btn-a find-bar-search-btn-b"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
-                    viewBox="0 0 1024 1024"
-                    className="find-bar-search-btn-c"
-                  >
-                    <path d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"></path>
-                  </svg>
-                </button>
+                
               </div>
+              <button
+                aria-label="Search"
+                className="find-bar-search-btn-a find-bar-search-btn-b"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 1024 1024"
+                  className=""
+                >
+                  <path d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"></path>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
-        <div className="login-main-a login-main-b login-main-c">
-          <div className="login-main-d login-main-e">
+        <div className="login-main-a">
+          <div>
             <button
               aria-label="Login"
               className="login-main-btn-a login-main-btn-b"
             >
-              <span className="login-main-btn-span-a login-main-btn-span-b">
-                Login
-              </span>
+              <span className="login-main-btn-span-a">Login</span>
             </button>
           </div>
         </div>
         <div className="header-sell">
-          <button title="Sell" className="header-sell-a header-sell-b">
+          <button title="Sell" className="header-sell-a">
             <img
               src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
-              className="header-sell-img-a"
+              className=""
               alt="Sell-img"
             />
-            <div className="header-sell-c header-sell-d header-sell-e header-sell-f">
+            <div className="header-sell-c">
               <img
                 src="https://www.olx.com.pk/assets/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg"
                 className="header-sell-img-b"
                 alt="lmg-sell"
               />
-              <span className="header-sell-span-a header-sell-span-b header-sell-span-c">Sell</span>
+              <span className="header-sell-span-a header-sell-span-b header-sell-span-c">
+                Sell
+              </span>
             </div>
           </button>
         </div>
