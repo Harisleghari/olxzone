@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 // import CheckBox from "../CheckBox/CheckBox";
 import "./header.css";
@@ -24,7 +25,7 @@ const Header = () => {
             </svg>
           </a>
         </div>
-        <a href="https://www.olx.com.pk/motors/" className="header-div-a-logo">
+        <a href="#" className="header-div-a-logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="88.9"
@@ -58,7 +59,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://www.olx.com.pk/properties/"
+          href="#"
           className="header-div-a-logo"
         >
           <svg

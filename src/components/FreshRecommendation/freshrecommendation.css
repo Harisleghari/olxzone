@@ -85,6 +85,7 @@
 
 .main-list-fresh-recom {
     padding: 0 1.6rem;
+    box-sizing: inherit;
 }
 
 .main-list-fresh-recom-name-a {
@@ -96,16 +97,13 @@
 
 .main-list-ul-a {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 0 0.8rem;
 }
 
 .main-list-ul-a li {
-    width: calc(50% - 0.4rem);
+    width: calc(25%);
     height: 28.9rem;
     margin-top: 0.8rem;
     margin-bottom: 0;
@@ -115,9 +113,6 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     border: 0.1rem solid rgba(0,47,52,.2);
     border-radius: 4px;
@@ -262,3 +257,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
