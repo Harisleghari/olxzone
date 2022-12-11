@@ -1,57 +1,59 @@
-*, :after, :before {
-    box-sizing: inherit;
+*,
+:after,
+:before {
+  box-sizing: inherit;
 }
 
 .wallpaper-ad-body {
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .wallpaper-ad-body-1-a {
-    display: flex;
-} 
+  display: flex;
+}
 
 .wallpaper-ad-body-1-b {
-    flex: 1;
+  flex: 1;
 }
 
 .wallpaper-ad-body-2-a {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: max-width .25s ease-in;
-} 
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: max-width 0.25s ease-in;
+}
 
 .wallpaper-ad-body-2-b {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Listing-ad-page-whole-a {
-    display: flex;
+  display: flex;
 }
 
 .Listing-ad-page-whole-b {
-    max-width: 1280px;
-    min-width: 768px;
-    margin: 1.6rem auto;
+  max-width: 1280px;
+  min-width: 768px;
+  margin: 1.6rem auto;
 }
 
 .Listing-ad-page-whole-c {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .Listing-ad-page-whole-d {
-    width: 100%;
+  width: 100%;
 }
 
 .Listing-ad-page-whole-e {
-    flex: 1;
+  flex: 1;
 }

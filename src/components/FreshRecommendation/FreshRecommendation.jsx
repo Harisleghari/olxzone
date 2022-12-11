@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./freshrecommendation.css";
 import LoadMore from "../LoadMore/LoadMore.jsx";
+import {Link} from "react-router-dom"
 
 const FreshRecommendation = () => {
   return (
@@ -19,12 +20,12 @@ const FreshRecommendation = () => {
           <li className="" aria-label="Listing">
             <article className="main-list-articles">
               <div className="main-list-articles-inside-div">
-                <a
-                  href="#"
+                <Link
+                  to="/list"
                   title="original persian kitty&#x27;s"
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
-                </a>
+                </Link>
                 <picture className="main-list-arcticles-images">
                   <img
                     role="presentation"
@@ -38,12 +39,12 @@ const FreshRecommendation = () => {
                 <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
               <div className="main-list-articles-inside-2nd-div">
-                <a
-                  href="#"
+                <Link
+                  to="/list"
                   title="original persian kitty&#x27;s"
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
-                </a>
+                </Link>
                 <div className="main-list-articles-inside-2nd-div-1">
                   <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     original persian kitty&#x27;s
@@ -51,12 +52,12 @@ const FreshRecommendation = () => {
                   <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 16,500</span>
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to="/list"
                     title="original persian kitty&#x27;s"
                   >
                     <div className="main-list-arcticles-anchor-inside-div"></div>
-                  </a>
+                  </Link>
                   <div className="main-list-articles-inside-2nd-div-1-b">
                     <div className="main-fresh-recommendation-wrap-a">
                       <img
@@ -83,12 +84,12 @@ const FreshRecommendation = () => {
           <li className="" aria-label="Listing">
             <article className="main-list-articles">
               <div className="main-list-articles-inside-div">
-                <a
-                  href="#"
+                <Link
+                  to="/list"
                   title="8 Marla Back open Boulevard Plot Sector - I"
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
-                </a>
+                </Link>
                 <picture className="main-list-arcticles-images">
                   <img
                     role="presentation"
@@ -102,12 +103,12 @@ const FreshRecommendation = () => {
                 <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
               <div className="main-list-articles-inside-2nd-div f289a80e">
-                <a
-                  href="#"
+                <Link
+                  to="/list"
                   title="8 Marla Back open Boulevard Plot Sector - I"
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
-                </a>
+                </Link>
                 <div className="main-list-articles-inside-2nd-div-1">
                   <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
                     8 Marla Back open Boulevard Plot Sector - I
@@ -115,12 +116,12 @@ const FreshRecommendation = () => {
                   <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
                     <span>Rs 12,000,000</span>
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                  to="/list"
                     title="8 Marla Back open Boulevard Plot Sector - I"
                   >
                     <div className="main-list-arcticles-anchor-inside-div"></div>
-                  </a>
+                  </Link>
                   <div className="main-list-articles-inside-2nd-div-1-b">
                     <div className="main-fresh-recommendation-wrap-a">
                       <img

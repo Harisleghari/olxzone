@@ -2,6 +2,7 @@
 import { useState } from "react";
 // import CheckBox from "../CheckBox/CheckBox";
 import "./header.css";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   const [mode, setMode] = useState(true);
@@ -188,16 +189,20 @@ const Header = () => {
         </div>
         <div className="login-main-a">
           <div>
+          <Link to="/login">
             <button
               aria-label="Login"
               className="login-main-btn-a login-main-btn-b"
             >
               <span className="login-main-btn-span-a">Login</span>
             </button>
+            </Link>
           </div>
         </div>
         <div className="header-sell">
+        <Link to="/postad">
           <button title="Sell" className="header-sell-a">
+          
             <img
               src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
               className=""
@@ -214,6 +219,7 @@ const Header = () => {
               </span>
             </div>
           </button>
+          </Link>
         </div>
       </div>
     </header>

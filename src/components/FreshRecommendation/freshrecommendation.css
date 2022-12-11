@@ -103,10 +103,11 @@
 }
 
 .main-list-ul-a li {
-    width: calc(25%);
+    width: calc(24%);
     height: 28.9rem;
     margin-top: 0.8rem;
     margin-bottom: 0;
+    margin-right: 10px;
 }
 
 .main-list-articles {
