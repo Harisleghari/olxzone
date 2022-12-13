@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listingheadpart.css";
 
 const ListingHeadPart = () => {
@@ -5,46 +6,46 @@ const ListingHeadPart = () => {
     <div class="listing-head-part-div-1-a listing-head-part-div-1-b listing-head-part-div-1-c">
       <div class="listing-head-part-div-2">
         <div>
-          <span class="_34a7409b _82772d8d _2e82a662">Popular Searches:</span>
-          <ul class="_5af5c0f4">
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-iphone" class="_6d1aa5f6">
+          <span class="listing-span-header-a listing-span-header-b">Popular Searches:</span>
+          <ul class="ul-header">
+            <li class="li-header">
+              <a href="#" class="a-header">
                 iphone
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-infinix" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 infinix
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-oppo" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 oppo
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-samsung" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 samsung
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-vivo" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 vivo
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-motorola" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 motorola
               </a>
             </li>
-            <span class="_34a7409b _0e12c6ca">-</span>
-            <li class="a5db7a22">
-              <a href="/mobile-phones_c1453/q-huawei" class="_6d1aa5f6">
+            <span class="listing-span-header-a listing-span-header-c">-</span>
+            <li class="li-header">
+              <a href="#" class="a-header">
                 huawei
               </a>
             </li>
@@ -52,37 +53,37 @@ const ListingHeadPart = () => {
         </div>
       </div>
       <div class="listing-head-part-div-3">
-        <div class="_03cb242d" aria-label="Breadcrumb">
+        <div class="listing-head-part-divs" aria-label="Breadcrumb">
           <ul
             itemscope=""
             itemtype="https://schema.org/BreadcrumbList"
-            class="ffff1e93"
+            class="listing-ul-div-3"
           >
             <li
               itemscope=""
               itemprop="itemListElement"
               itemtype="https://schema.org/ListItem"
-              class="_8c543153"
+              class="listing-li-div-3"
             >
-              <a href="/" itemprop="item" title="Home" class="_151bd34b">
+              <a href="/" itemprop="item" title="Home" class="anchor-div-of-header">
                 Home
                 <meta itemprop="name" content="Home" />
               </a>
               <meta itemprop="position" content="1" />
             </li>
-            <li class="_151bd34b c07ab405">/</li>
+            <li class="anchor-div-of-header anchor-div-of-header-a">/</li>
             <li
               itemscope=""
               itemprop="itemListElement"
               itemtype="https://schema.org/ListItem"
-              class="_8c543153"
+              class="listing-li-div-3"
             >
               <a
-                href="/mobiles_c1411"
+                href="#"
                 itemprop="item"
                 data-testid="breadcrumbSearchLink"
                 title="Mobiles"
-                class="_151bd34b"
+                class="anchor-div-of-header"
               >
                 Mobiles
                 <meta itemprop="name" content="Mobiles" />
@@ -93,7 +94,7 @@ const ListingHeadPart = () => {
         </div>
       </div>
       <div class="listing-head-part-div-1-a listing-head-part-div-4">
-        <h1 class="_888f7099">Mobile Phones</h1>
+        <h1 class="header-heading">Mobile Phones</h1>
       </div>
     </div>
   );

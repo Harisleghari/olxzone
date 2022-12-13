@@ -1,0 +1,357 @@
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button .button, li {
+    margin-bottom: 1rem;
+}
+
+.listing-ads-div {
+    width: 100%;
+    min-width: 1px;
+}
+
+.listing-div-a-1 {
+    display: flex;
+}
+
+.listing-div-a-2 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.listing-div-a-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.view-side-a {
+    margin: 0.8rem 0;
+}
+
+.listing-div-a-4 {
+    width: 100%;
+}
+
+.below-btn-a {
+    width: 100%;
+    padding: 0 0 0.3rem;
+    border-bottom: 0.1rem solid rgba(0,47,52,.36);
+}
+
+.below-btn-b {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.ads-count {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: #c8f8f6;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.view-side>:not(:last-child) {
+    padding-right: 0.8rem;
+    border-right: 1px solid #dedede;
+}
+
+.view-side-div-a {
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+.view-side-checkbox {
+    position: relative;
+    width: 2.4rem;
+    min-width: 2.4rem;
+    height: 2.4rem;
+    min-height: 2.4rem;
+    margin: 0;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border: 0.1rem solid #002f34;
+}
+
+.label-view-side {
+    margin-left: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: rgba(0,47,52,.64);
+    cursor: pointer;
+    width: 100%;
+}
+
+.view-side-span-a {
+    font-size: 1.4rem;
+    color: #002f34;
+}
+
+.view-side>:not(:first-child){
+    padding-left: 0.8rem;
+}
+
+.view-side:not(:last-child) {
+    padding-right: 0.8rem;
+    border-right: 1px solid #dedede;
+}
+
+.view-side-span-a {
+    font-weight: 700;
+}
+
+.view-side-span-b {
+    text-transform: uppercase;
+}
+
+.f9>:not(:last-child) {
+    margin-right: 0.8rem;
+}
+
+.span-btn-a {
+    background-color: #c8f8f6;
+    background: none;
+    border: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+    color: inherit;
+    padding: 0.6rem;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    transition: background-color .15s;
+}
+
+.span-btn-b {
+    background-color: #c8f8f6;
+}
+
+.short-a {
+    position: relative;
+}
+
+.drop-down-a {
+    width: 16px;
+    height: 16px;
+    margin-left: 0.8rem;
+    transition: transform .2s;
+}
+
+.ul-div-a {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 0.8rem;
+}
+
+.ul-div-a li {
+    height: 12.1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    width: 100%;
+}
+
+.article-a {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    border: 0.1rem solid rgba(0,47,52,.2);
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.article-div-a {
+    height: 60%;
+    background-color: #fff;
+    margin: 0;
+    position: relative;
+    background-color: #222;
+    width: 35%;
+    height: 100%;
+    border-right: 0.1rem solid rgba(0,47,52,.2);
+}
+
+.article-div-b {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.pic-a {
+    margin: auto;
+    height: 100%;
+}
+
+.img-ads {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+img.error, img.initial, img.loaded {
+    opacity: 1;
+}
+
+img.lazy {
+    opacity: 0;
+    transition: opacity .1s ease-in;
+}
+
+.last-div-a {
+    bottom: 0.8rem;
+    left: 0.8rem;
+    position: absolute;
+}
+
+.featured-a {
+    background-color: #ffce32;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.aeticle-last-div-a {
+    height: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    width: 65%;
+    height: 100%;
+    padding: 1.6rem 1.6rem 1.6rem 2.58rem;
+}
+
+ul a {
+    text-decoration: underline;
+}
+
+.f3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: auto;
+    position: relative;
+    line-height: 1.8rem;
+}
+
+.f3-div-a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #002f34;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 85%;
+    white-space: unset;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.price-div-a {
+    margin: 1rem 0 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.aeticle-last-div-a {
+    border-left: 0.5rem solid #ffce32;
+    padding-left: 2.08rem;
+}
+
+.ef {
+    height: 2.4rem;
+    width: 2.4rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img-heart {
+    width: 100%;
+    height: 100%;
+}
+
+.address {
+    color: #61797d;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto 0;
+}
+
+.address-a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.address-a-span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.address-b-span {
+    margin: 0 0.4rem;
+}
+
+.address-c-span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.address-a-div {
+    display: flex;
+}
