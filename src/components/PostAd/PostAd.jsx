@@ -30,26 +30,9 @@ const PostAd = () => {
       <div class="_1075545d _5e14a3d0 _42f36e3b">
         <span class="_7978e49c _2e82a662 a695f1e9">Post your ad</span>
       </div>
-      <div class="_035521cc fafe2f65">
+      <div class="fafe2f65">
         <div class="a1f8c89e">
           <div>
-            <div class="_8892a5e8">
-              <div>
-                <div class="_302801f2">
-                  <span class="_7978e49c _2e82a662 a695f1e9">
-                    Selected category
-                  </span>
-                </div>
-                <div class="_1075545d _80c66d30 _96d4439a">
-                  <span class="_674217d1">
-                    <span class="_8918c0a8">Mobiles / Tablets</span>
-                  </span>
-                  <button class="_0db6bd2f _14b29bd0">
-                    <span class="_34a7409b _2e82a662 _79855a31">Change</span>
-                  </button>
-                </div>
-              </div>
-            </div>
             <div class="_27033455">
               <form>
                 <div class="b7cdd9f7">
@@ -70,6 +53,7 @@ const PostAd = () => {
                         class="fc60720d"
                         maxlength="70"
                         autocomplete="nope"
+                        value=""
                       />
                     </div>
                     <div class="df4e426f">
@@ -109,49 +93,6 @@ const PostAd = () => {
                       </span>
                     </div>
                   </div>
-                  <div class="_910067cd" aria-label="Filterable input">
-                    <div>
-                      <div class="cb8c9afa">
-                        <label for="type" class="_9e14c74e">
-                          <span class="_34a7409b">Brand</span>
-                        </label>
-                        <div class="f6c2c5a2">
-                          <div id="type" class="_1075545d db6157f8 _96d4439a">
-                            <span></span>
-                          </div>
-                          <div class="e6f2da21">
-                            <img
-                              src="/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
-                              alt="Select toggle"
-                            />
-                          </div>
-                        </div>
-                        <div class="df4e426f"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="">
-                    <span class="_725fc556">
-                      <span class="_34a7409b">Condition</span>
-                    </span>
-                    <div class="c65011c7">
-                      <div class="_1f2c84af undefined">
-                        <span class="_34a7409b">New</span>
-                      </div>
-                      <div class="_1f2c84af undefined">
-                        <span class="_34a7409b">Open Box</span>
-                      </div>
-                      <div class="_1f2c84af undefined">
-                        <span class="_34a7409b">Used</span>
-                      </div>
-                      <div class="_1f2c84af undefined">
-                        <span class="_34a7409b">Refurbished</span>
-                      </div>
-                      <div class="_1f2c84af undefined">
-                        <span class="_34a7409b">For Parts or Not Working</span>
-                      </div>
-                    </div>
-                  </div>
                   <div class="_7fccd0e8"></div>
                   <div class="_24ffe5a1">
                     <span class="_7978e49c _2e82a662 a695f1e9">
@@ -173,6 +114,7 @@ const PostAd = () => {
                         class="fc60720d"
                         autocomplete="nope"
                         type="text"
+                        value=""
                       />
                     </div>
                     <div class="df4e426f"></div>
@@ -197,7 +139,7 @@ const PostAd = () => {
                         <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
                           <img
                             src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
+                            alt=""
                           />
                           <div class="c6a55a8c"></div>
                         </div>
@@ -206,7 +148,7 @@ const PostAd = () => {
                         <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
                           <img
                             src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
+                            alt=""
                           />
                           <div class="c6a55a8c"></div>
                         </div>
@@ -215,160 +157,7 @@ const PostAd = () => {
                         <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
                           <img
                             src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
-                          />
-                          <div class="c6a55a8c"></div>
-                        </div>
-                      </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
-                          <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
-                            alt="img"
+                            alt=""
                           />
                           <div class="c6a55a8c"></div>
                         </div>
@@ -437,6 +226,7 @@ const PostAd = () => {
                           class="fc60720d"
                           autocomplete="nope"
                           type="text"
+                          value=""
                         />
                       </div>
                       <div class="df4e426f"></div>
@@ -463,35 +253,15 @@ const PostAd = () => {
                         autocomplete="nope"
                         type="text"
                         placeholder="Phone number"
+                        value=""
                       />
                     </div>
                     <div class="df4e426f"></div>
                   </div>
-                  <div class="_1075545d f2fce7cd _858a64cf">
-                    <div class="_1075545d d059c029 _858a64cf">
-                      <span class="_261203a9 bd86fe63">
-                        Show my phone number in ads
-                      </span>
-                      <span class="_34a7409b a75ad8da"></span>
-                    </div>
-                    <div class="a06104f6">
-                      <div class="_66dc2348 d947c0d5">
-                        <input
-                          type="checkbox"
-                          readonly=""
-                          class="_6482a2ad"
-                          checked
-                        />
-                        <div class="c2e7cd8b"></div>
-                      </div>
-                    </div>
-                  </div>
                   <div class="_1bea4232"></div>
                   <div class="_22712359">
                     <button class="_5fd7b300 f3d05709" type="submit">
-                      <span class="_261203a9 _495bfc7d _2e82a662">
-                        Post now
-                      </span>
+                      <span class="_495bfc7d _2e82a662">Post now</span>
                     </button>
                   </div>
                 </div>

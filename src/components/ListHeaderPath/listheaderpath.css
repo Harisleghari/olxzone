@@ -1,0 +1,30 @@
+.list-header-div {
+    margin-top: 1.6rem;
+}
+
+.bread-crumb {
+    position: relative;
+}
+
+.list-ul {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-bottom: 0.8rem;
+    max-width: 100%;
+}
+
+.list-li {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.home-path {
+    color: rgba(0,47,52,.64);
+    text-decoration: none;
+}
+
+.home-path-a {
+    margin: 0 0.8rem;
+}

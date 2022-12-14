@@ -1,77 +1,78 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listheaderpath.css";
 
 const ListHeaderPath = () => {
   return (
-    <div class="_67a44b06">
-      <div class="_03cb242d" aria-label="Breadcrumb">
+    <div className="list-header-div">
+      <div className="bread-crumb" aria-label="Breadcrumb">
         <ul
           itemscope=""
           itemtype="https://schema.org/BreadcrumbList"
-          class="ffff1e93"
+          className="list-ul"
         >
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
-            <a href="/" itemprop="item" title="Home" class="_151bd34b">
+            <a href="/" itemprop="item" title="Home" className="home-path">
               Home
               <meta itemprop="name" content="Home" />
             </a>
             <meta itemprop="position" content="1" />
           </li>
-          <li class="_151bd34b c07ab405">/</li>
+          <li className="home-path home-path-a">/</li>
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
             <a
-              href="/property-for-sale_c2"
+              href="#"
               itemprop="item"
               data-testid="breadcrumbSearchLink"
               title="Property for Sale"
-              class="_151bd34b"
+              className="home-path"
             >
               Property for Sale
               <meta itemprop="name" content="Property for Sale" />
             </a>
             <meta itemprop="position" content="2" />
           </li>
-          <li class="_151bd34b c07ab405">/</li>
+          <li className="home-path home-path-a">/</li>
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
             <a
-              href="/houses_c1721"
+              href="#"
               itemprop="item"
               data-testid="breadcrumbSearchLink"
               title="Houses"
-              class="_151bd34b"
+              className="home-path"
             >
               Houses
               <meta itemprop="name" content="Houses" />
             </a>
             <meta itemprop="position" content="3" />
           </li>
-          <li class="_151bd34b c07ab405">/</li>
+          <li className="home-path home-path-a">/</li>
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
             <a
-              href="/islamabad-capital-territory_g2003003/houses_c1721"
+              href="#"
               itemprop="item"
               data-testid="breadcrumbSearchLink"
               title="Houses in Islamabad Capital Territory"
-              class="_151bd34b"
+              className="home-path"
             >
               Houses in Islamabad Capital Territory
               <meta
@@ -81,38 +82,38 @@ const ListHeaderPath = () => {
             </a>
             <meta itemprop="position" content="4" />
           </li>
-          <li class="_151bd34b c07ab405">/</li>
+          <li className="home-path home-path-a">/</li>
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
             <a
-              href="/islamabad_g4060615/houses_c1721"
+              href="#"
               itemprop="item"
               data-testid="breadcrumbSearchLink"
               title="Houses in Islamabad"
-              class="_151bd34b"
+              className="home-path"
             >
               Houses in Islamabad
               <meta itemprop="name" content="Houses in Islamabad" />
             </a>
             <meta itemprop="position" content="5" />
           </li>
-          <li class="_151bd34b c07ab405">/</li>
+          <li className="home-path home-path-a">/</li>
           <li
             itemscope=""
             itemprop="itemListElement"
             itemtype="https://schema.org/ListItem"
-            class="_8c543153"
+            className="list-li"
           >
             <a
-              href="/top-city-1_g5001157/houses_c1721"
+              href="#"
               itemprop="item"
               data-testid="breadcrumbSearchLink"
               title="Houses in Top City 1"
-              class="_151bd34b"
+              className="home-path"
             >
               Houses in Top City 1
               <meta itemprop="name" content="Houses in Top City 1" />
