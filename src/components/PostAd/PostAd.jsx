@@ -1,267 +1,326 @@
 import "./postad.css";
+import { Link } from "react-router-dom";
 
 const PostAd = () => {
   return (
-    <div id="body-wrapper" class="ce5b4266 _5345e71b" style={{ top: "unset;" }}>
-      <header class="e04978a1">
-        <div aria-label="Back button" class="_1075545d _0af3af7a _96d4439a">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 1024 1024"
-            class="_5cd47560"
-          >
-            <path d="M512 124.16v54.83L209.7 473.17l676.96.05L925.48 512l-38.82 38.78H209.75L512 845.01v54.87h-56.32L85.33 539.43v-54.86l370.35-360.4H512z"></path>
-          </svg>
+    <div
+      id="body-wrapper"
+      className="post-ad-wrap-a post-ad-wrap-b"
+      style={{ top: "unset;" }}
+    >
+      <header className="post-ad-header">
+        <div
+          aria-label="Back button"
+          className="post-ad-header-div-a post-ad-header-div-b post-ad-header-div-c"
+        >
+          <Link to="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 1024 1024"
+              className="post-ad-header-svg"
+            >
+              <path d="M512 124.16v54.83L209.7 473.17l676.96.05L925.48 512l-38.82 38.78H209.75L512 845.01v54.87h-56.32L85.33 539.43v-54.86l370.35-360.4H512z"></path>
+            </svg>
+          </Link>
         </div>
-        <div class="_43366344">
-          <div class="">
-            <a href="/" class="_5afdd59e">
+        <div className="post-ads-logo">
+          <div className="">
+            <Link to="/" className="post-ads-logo-a">
               <img
-                src="/assets/logo_noinline.1cdf230e49c0530ad4b8d43e37ecc4a4.svg"
+                src="https://www.olx.com.pk/assets/logo_noinline.1cdf230e49c0530ad4b8d43e37ecc4a4.svg"
                 alt="Olx logo"
-                class="ae10437e"
+                className="post-ads-logo-img"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </header>
-      <div class="_1075545d _5e14a3d0 _42f36e3b">
-        <span class="_7978e49c _2e82a662 a695f1e9">Post your ad</span>
+      <div className="post-ad-header-div-a heading-a heading-b">
+        <span className="span-a span-b span-c">Post your ad</span>
       </div>
-      <div class="fafe2f65">
-        <div class="a1f8c89e">
+      <div className="select">
+        <div className="select-post">
           <div>
-            <div class="_27033455">
+            <div className="details-a">
               <form>
-                <div class="b7cdd9f7">
-                  <span class="_7978e49c _2e82a662 a695f1e9">
+                <div className="form-div-a">
+                  <span className="span-a span-b span-c">
                     Include some details
                   </span>
                 </div>
-                <div class="cb852a68">
-                  <div class="cb8c9afa">
-                    <label for="title" class="_9e14c74e">
-                      <span class="_34a7409b">Ad title</span>
+                <div className="details-form">
+                  <div className="details-form-div">
+                    <label for="title" className="details-label">
+                      <span className="details-span">Ad title</span>
                     </label>
-                    <div class="f6c2c5a2">
+                    <div className="details-div-2">
                       <input
                         id="title"
                         name="title"
                         spellcheck="false"
-                        class="fc60720d"
+                        className="details-div-2-inp"
                         maxlength="70"
                         autocomplete="nope"
                         value=""
                       />
                     </div>
-                    <div class="df4e426f">
-                      <span class="c45bea97">
-                        <span class="_8918c0a8">
+                    <div className="details-div-3">
+                      <span className="details-div-3-span">
+                        <span className="details-div-3-span-a">
                           Mention the key features of your item (e.g. brand,
                           model, age, type)
                         </span>
                       </span>
-                      <span class="ee7ffe72">
-                        <span class="_8918c0a8">0/70</span>
+                      <span className="details-div-3-span-a-a">
+                        <span className="details-div-3-span-a">0/70</span>
                       </span>
                     </div>
                   </div>
-                  <div class="cb8c9afa">
-                    <label for="description" class="_9e14c74e">
-                      <span class="_34a7409b">Description</span>
+                  <div className="details-form-div">
+                    <label for="description" className="details-label">
+                      <span className="details-span">Description</span>
                     </label>
-                    <div class="f6c2c5a2 _75b19f76">
+                    <div className="details-div-2 description-div">
                       <textarea
                         id="description"
                         name="description"
                         spellcheck="false"
-                        class="fc60720d"
+                        className="details-div-2-inp"
                         maxlength="4096"
                         autocomplete="nope"
                       ></textarea>
                     </div>
-                    <div class="df4e426f">
-                      <span class="c45bea97">
-                        <span class="_8918c0a8">
+                    <div className="details-div-3">
+                      <span className="details-div-3-span">
+                        <span className="details-div-3-span-a">
                           Include condition, features and reason for selling
                         </span>
                       </span>
-                      <span class="ee7ffe72">
-                        <span class="_8918c0a8">0/4096</span>
+                      <span className="details-div-3-span-a-a">
+                        <span className="details-div-3-span-a">0/4096</span>
                       </span>
                     </div>
                   </div>
-                  <div class="_7fccd0e8"></div>
-                  <div class="_24ffe5a1">
-                    <span class="_7978e49c _2e82a662 a695f1e9">
-                      Set a price
-                    </span>
+                  <div className="hr-line-a"></div>
+                  <div className="set-price-div">
+                    <span className="span-a span-b span-c">Set a price</span>
                   </div>
-                  <div class="cb8c9afa">
-                    <label for="price" class="_9e14c74e">
-                      <span class="_34a7409b">Price</span>
+                  <div className="details-form-div">
+                    <label for="price" className="details-label">
+                      <span className="details-span">Price</span>
                     </label>
-                    <div class="f6c2c5a2">
-                      <span class="f16b0aeb">
-                        <span class="_8918c0a8">Rs</span>
+                    <div className="details-div-2">
+                      <span className="rs-span">
+                        <span className="details-div-3-span-a">Rs</span>
                       </span>
                       <input
                         id="price"
                         name="price"
                         spellcheck="false"
-                        class="fc60720d"
+                        className="details-div-2-inp"
                         autocomplete="nope"
                         type="text"
                         value=""
                       />
                     </div>
-                    <div class="df4e426f"></div>
+                    <div className="details-div-3"></div>
                   </div>
-                  <div class="_1bea4232"></div>
-                  <div class="b7cdd9f7">
-                    <span class="_7978e49c _2e82a662 a695f1e9">
+                  <div className="hr-2"></div>
+                  <div className="form-div-a">
+                    <span className="span-a span-b span-c">
                       Upload up to 20 photos
                     </span>
                   </div>
                   <div>
-                    <label class="_5aead971">
+                    <label className="images-label">
                       <input
                         type="file"
                         name="photos"
                         accept="image/png, image/jpeg"
                         autocomplete="off"
                         multiple=""
-                        class="_5135df86"
+                        className="images-input"
                       />
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
+                      <div className="">
+                        <div className="post-ad-header-div-a images-div-2 heading-b post-ad-header-div-c">
                           <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
+                            src="https://www.olx.com.pk/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
                             alt=""
                           />
-                          <div class="c6a55a8c"></div>
+                          <div className="img-borders"></div>
                         </div>
                       </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
+                      <div className="">
+                        <div className="post-ad-header-div-a images-div-2 heading-b post-ad-header-div-c">
                           <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
+                            src="https://www.olx.com.pk/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
                             alt=""
                           />
-                          <div class="c6a55a8c"></div>
+                          <div className="img-borders"></div>
                         </div>
                       </div>
-                      <div class="">
-                        <div class="_1075545d _157ad28a _42f36e3b _96d4439a">
+                      <div className="">
+                        <div className="post-ad-header-div-a images-div-2 heading-b post-ad-header-div-c">
                           <img
-                            src="/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
+                            src="https://www.olx.com.pk/assets/iconAddPhoto_noinline.8924e2486f689a28af51da37a7bda6ec.svg"
                             alt=""
                           />
-                          <div class="c6a55a8c"></div>
+                          <div className="img-borders"></div>
                         </div>
                       </div>
                     </label>
-                    <span class="c45bea97">
-                      <span class="_8918c0a8">
+                    <span className="details-div-3-span">
+                      <span className="details-div-3-span-a">
                         For the cover picture we recommend using the landscape
                         mode.
                       </span>
                     </span>
                   </div>
-                  <div class="_1bea4232"></div>
-                  <div class="b7cdd9f7">
-                    <span class="_7978e49c _2e82a662 a695f1e9">
+                  <div className="hr-2"></div>
+                  <div className="form-div-a">
+                    <span className="span-a span-b span-c">
                       Your Ad's Location
                     </span>
                   </div>
-                  <div class="_38ae27e1" aria-label="Filterable input">
+                  <div className="location-div" aria-label="Filterable input">
                     <div>
-                      <div class="cb8c9afa">
-                        <label for="Location" class="_9e14c74e">
-                          <span class="_34a7409b">Location</span>
+                      <div className="details-form-div">
+                        <label for="Location" className="details-label">
+                          <span className="details-span">Location</span>
                         </label>
-                        <div class="f6c2c5a2">
+                        <div className="details-div-2">
                           <div
                             id="Location"
-                            class="_1075545d db6157f8 _96d4439a"
+                            className="post-ad-header-div-a location-div-inside post-ad-header-div-c"
                           >
                             <span></span>
                           </div>
-                          <div class="e6f2da21">
+                          <div className="toggle-c">
                             <img
-                              src="/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+                              src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
                               alt="Select toggle"
                             />
                           </div>
                         </div>
-                        <div class="df4e426f"></div>
+                        <div className="details-div-3">
+                          <div className="ed1505d2">
+                            <div className="_75bcdc15">
+                              <div className="cb8c9afa _43eeff7d">
+                                <div className="f6c2c5a2">
+                                  <input
+                                    spellcheck="false"
+                                    className="fc60720d"
+                                    autocomplete="nope"
+                                    placeholder="Search"
+                                    value=""
+                                  />
+                                </div>
+                                <div className="df4e426f"></div>
+                              </div>
+                            </div>
+                            <div className="_345a69e2">
+                              <div className="_1075545d _709d3fcb _96d4439a">
+                                <img
+                                  src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
+                                  alt="/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
+                                />
+                                <div className="d35d9456">
+                                  <span className="_261203a9 _2e82a662">
+                                    Use current location
+                                  </span>
+                                  <div className="_592eac8b">
+                                    <span className="_34a7409b"></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="_93edca37">Choose region</div>
+                            <div className="a9021c2f">
+                              Azad Kashmir, Pakistan
+                            </div>
+                            <div className="a9021c2f">
+                              Balochistan, Pakistan
+                            </div>
+                            <div className="a9021c2f">
+                              Islamabad Capital Territory, Pakistan
+                            </div>
+                            <div className="a9021c2f">
+                              Khyber Pakhtunkhwa, Pakistan
+                            </div>
+                            <div className="a9021c2f">
+                              Northern Areas, Pakistan
+                            </div>
+                            <div className="a9021c2f">Punjab, Pakistan</div>
+                            <div className="a9021c2f">Sindh, Pakistan</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="_1bea4232"></div>
-                  <div class="b7cdd9f7">
-                    <span class="_7978e49c _2e82a662 a695f1e9">
+                  <div className="hr-2"></div>
+                  <div className="form-div-a">
+                    <span className="span-a span-b span-c">
                       Review your details
                     </span>
                   </div>
-                  <div class="_1075545d">
-                    <div class="_94b12812">
+                  <div className="post-ad-header-div-a">
+                    <div className="profile-pic">
                       <img
-                        class="_0559c5ad _624c3ae3"
-                        src="/assets/iconProfilePicture.7975761176487dc62e25536d9a36a61d.png"
+                        className="profile-img-a profile-img-b"
+                        src="https://www.olx.com.pk/assets/iconProfilePicture.7975761176487dc62e25536d9a36a61d.png"
                         alt="User profile"
                       />
                     </div>
-                    <div class="cb8c9afa">
-                      <label for="name" class="_9e14c74e">
-                        <span class="_34a7409b">Name</span>
+                    <div className="details-form-div">
+                      <label for="name" className="details-label">
+                        <span className="details-span">Name</span>
                       </label>
-                      <div class="f6c2c5a2">
+                      <div className="details-div-2">
                         <input
                           id="name"
                           name="name"
                           spellcheck="false"
-                          class="fc60720d"
+                          className="details-div-2-inp"
                           autocomplete="nope"
                           type="text"
                           value=""
                         />
                       </div>
-                      <div class="df4e426f"></div>
+                      <div className="details-div-3"></div>
                     </div>
                   </div>
                   <div>
-                    <span class="_7978e49c _2e82a662">
+                    <span className="span-a span-b">
                       Let's verify your account
                     </span>
                   </div>
-                  <div class="cb8c9afa">
-                    <label for="phone_number" class="_9e14c74e">
-                      <span class="_34a7409b">Mobile Phone Number</span>
+                  <div className="details-form-div">
+                    <label for="phone_number" className="details-label">
+                      <span className="details-span">Mobile Phone Number</span>
                     </label>
-                    <div class="f6c2c5a2 e549a8ae">
-                      <span class="f16b0aeb _8e2c7627">
-                        <span class="_8918c0a8">+92</span>
+                    <div className="details-div-2 phone-a">
+                      <span className="rs-span">
+                        <span className="details-div-3-span-a">+92</span>
                       </span>
                       <input
                         id="phone_number"
                         name="phone_number"
                         spellcheck="false"
-                        class="fc60720d d4b3e258"
+                        className="details-div-2-inp d4b3e258"
                         autocomplete="nope"
                         type="text"
                         placeholder="Phone number"
                         value=""
                       />
                     </div>
-                    <div class="df4e426f"></div>
+                    <div className="details-div-3"></div>
                   </div>
-                  <div class="_1bea4232"></div>
-                  <div class="_22712359">
-                    <button class="_5fd7b300 f3d05709" type="submit">
-                      <span class="_495bfc7d _2e82a662">Post now</span>
+                  <div className="hr-2"></div>
+                  <div className="button-div">
+                    <button className="button-div-a button-div-b" type="submit">
+                      <span className="button-div-span span-b">Post now</span>
                     </button>
                   </div>
                 </div>
