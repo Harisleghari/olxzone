@@ -191,71 +191,12 @@ const PostAd = () => {
                           <span className="details-span">Location</span>
                         </label>
                         <div className="details-div-2">
-                          <div
+                          <input
                             id="Location"
                             className="post-ad-header-div-a location-div-inside post-ad-header-div-c"
-                          >
-                            <span></span>
-                          </div>
-                          <div className="toggle-c">
-                            <img
-                              src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
-                              alt="Select toggle"
-                            />
-                          </div>
+                          />
                         </div>
-                        <div className="details-div-3">
-                          <div className="ed1505d2">
-                            <div className="_75bcdc15">
-                              <div className="cb8c9afa _43eeff7d">
-                                <div className="f6c2c5a2">
-                                  <input
-                                    spellcheck="false"
-                                    className="fc60720d"
-                                    autocomplete="nope"
-                                    placeholder="Search"
-                                    value=""
-                                  />
-                                </div>
-                                <div className="df4e426f"></div>
-                              </div>
-                            </div>
-                            <div className="_345a69e2">
-                              <div className="_1075545d _709d3fcb _96d4439a">
-                                <img
-                                  src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
-                                  alt="/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
-                                />
-                                <div className="d35d9456">
-                                  <span className="_261203a9 _2e82a662">
-                                    Use current location
-                                  </span>
-                                  <div className="_592eac8b">
-                                    <span className="_34a7409b"></span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="_93edca37">Choose region</div>
-                            <div className="a9021c2f">
-                              Azad Kashmir, Pakistan
-                            </div>
-                            <div className="a9021c2f">
-                              Balochistan, Pakistan
-                            </div>
-                            <div className="a9021c2f">
-                              Islamabad Capital Territory, Pakistan
-                            </div>
-                            <div className="a9021c2f">
-                              Khyber Pakhtunkhwa, Pakistan
-                            </div>
-                            <div className="a9021c2f">
-                              Northern Areas, Pakistan
-                            </div>
-                            <div className="a9021c2f">Punjab, Pakistan</div>
-                            <div className="a9021c2f">Sindh, Pakistan</div>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
