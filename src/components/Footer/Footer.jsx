@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./footer.css";
 
 const Footer = () => {
@@ -9,22 +10,22 @@ const Footer = () => {
             <span class="footer-span-a footer-span-b footer-span-c">Popular Categories</span>
             <ul class="footer-ul">
               <li>
-                <a href="/cars_c84" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Cars</span>
                 </a>
               </li>
               <li>
-                <a href="/apartments-flats_c1723" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Flats for rent</span>
                 </a>
               </li>
               <li>
-                <a href="/mobile-phones_c1453" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Mobile Phones</span>
                 </a>
               </li>
               <li>
-                <a href="/jobs_c4" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Jobs</span>
                 </a>
               </li>
@@ -34,22 +35,22 @@ const Footer = () => {
             <span class="footer-spna-a footer-span-b footer-span-c">Trending Searches</span>
             <ul class="footer-ul">
               <li>
-                <a href="/motorcycles_c81" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Bikes</span>
                 </a>
               </li>
               <li>
-                <a href="/watches_c1970" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Watches</span>
                 </a>
               </li>
               <li>
-                <a href="/items/q-books" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Books</span>
                 </a>
               </li>
               <li>
-                <a href="/items/q-dogs" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Dogs</span>
                 </a>
               </li>
@@ -59,18 +60,18 @@ const Footer = () => {
             <span class="footer-spna-a footer-span-b footer-span-c">About Us</span>
             <ul class="footer-ul">
               <li>
-                <a href="https://www.empg.com/" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">About EMPG</span>
                 </a>
               </li>
               <li>
-                <a href="https://blog.olx.com.pk/" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">OLX Blog</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-"
+                  href="#"
                   class="footer-ul-anchor"
                 >
                   <span class="footer-ul-span">Contact Us</span>
@@ -78,7 +79,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website"
+                  href="#"
                   class="footer-ul-anchor"
                 >
                   <span class="footer-ul-span">OLX for Businesses</span>
@@ -90,18 +91,18 @@ const Footer = () => {
             <span class="footer-spna-a footer-span-b footer-span-c">OLX</span>
             <ul class="footer-ul">
               <li>
-                <a href="https://help.olx.com.pk/hc/en-us" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Help</span>
                 </a>
               </li>
               <li>
-                <a href="/sitemap/most-popular" class="footer-ul-anchor">
+                <a href="#" class="footer-ul-anchor">
                   <span class="footer-ul-span">Sitemap</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-"
+                  href="#"
                   class="footer-ul-anchor"
                 >
                   <span class="footer-ul-span">Terms of use</span>
@@ -109,7 +110,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information"
+                  href="#"
                   class="footer-ul-anchor"
                 >
                   <span class="footer-ul-span">Privacy Policy</span>
@@ -121,8 +122,8 @@ const Footer = () => {
             <span class="footer-spna-a footer-span-b footer-span-c">Follow us</span>
             <div class="footer-icons-a footer-icons-b footer-icons-c">
               <a
-                href="https://www.facebook.com/olxpakistan"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -131,8 +132,8 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://twitter.com/OLX_Pakistan"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -141,8 +142,8 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -151,8 +152,8 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/olx.pakistan/"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -163,8 +164,8 @@ const Footer = () => {
             </div>
             <div class="footer-icons-a footer-apps-a footer-icons-c">
               <a
-                href="https://apps.apple.com/pk/app/olx-pakistan/id1551315538"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -174,8 +175,8 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://play.google.com/store/apps/details?id=com.olx.pk"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img
@@ -185,8 +186,8 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://appgallery.huawei.com/#/app/C104375435"
-                target="_blank"
+                href="#"
+                
                 rel="noopener noreferrer"
               >
                 <img

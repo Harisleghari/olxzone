@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
+// import { useState } from "react";
 // import CheckBox from "../CheckBox/CheckBox";
 import "./header.css";
 import {Link} from "react-router-dom";
 
 const Header = () => {
-  const [mode, setMode] = useState(true);
+  // const [mode, setMode] = useState(true);
 
-  const clickHandle = () => {
-    setMode(!mode);
-  }
+  // const clickHandle = () => {
+  //   setMode(!mode);
+  // }
 
   return (
     <header className="header-a">
@@ -130,16 +130,16 @@ const Header = () => {
                 autoComplete="location-search"
                 placeholder="Search city, area or locality"
               />
-              <div className="input-location-drop-a input-location-drop-b">
+              {/* <div className="input-location-drop-a input-location-drop-b">
                 <img
                   src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
                   alt="Dropdown trigger"
                   className="dropdown-trigger-a"
                   onClick = {clickHandle}
                 />
-              </div>
+              </div> */}
             </div>
-            <div className="location-dropdown" aria-label="Locations Dropdown" style={mode? {display: "none"}: {display:"block"}}>
+            {/* <div className="location-dropdown" aria-label="Locations Dropdown" style={mode? {display: "none"}: {display:"block"}}>
             <div className="current-location-div-a current-location-div-b current-location-div-c">
               <div className="current-location-div-a-1 current-location-div-b-1 current-location-div-c-1">
                 <img src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg" alt="icon current location" />
@@ -148,7 +148,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="find-bar">

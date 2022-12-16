@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./tryapp.css";
 
 const TryApp = () => {
@@ -32,8 +33,8 @@ const TryApp = () => {
           <div>Get your app today</div>
           <div class="try-app-div-a try-app-div-line-last-colm try-app-div-line-a">
             <a
-              href="https://apps.apple.com/pk/app/olx-pakistan/id1551315538"
-              target="_blank"
+              href="#"
+              
               rel="noopener noreferrer"
             >
               <img
@@ -43,8 +44,8 @@ const TryApp = () => {
               />
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.olx.pk"
-              target="_blank"
+              href="#"
+              
               rel="noopener noreferrer"
             >
               <img
@@ -54,8 +55,8 @@ const TryApp = () => {
               />
             </a>
             <a
-              href="https://appgallery.huawei.com/#/app/C104375435"
-              target="_blank"
+              href="#"
+              
               rel="noopener noreferrer"
             >
               <img

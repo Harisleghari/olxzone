@@ -13,13 +13,12 @@ const MainCategories = () => {
     <div className="main-categories-div">
       <div className="main-categories-div-a main-categories-div-b">
         <div className="main-all-categories-div">
-          <div className="main-all-categories-div-a">
+          <div className="main-all-categories-div-a" onClick={clickHandler}>
             All categories
             <img
               src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
               className="main-all-categories-div-a-img"
               alt="Dropdown arrow"
-              onClick={clickHandler}
             />
 
             
