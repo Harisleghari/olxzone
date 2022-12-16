@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listheaderpath.css";
+import {Link} from "react-router-dom";
 
 const ListHeaderPath = () => {
   return (
@@ -16,10 +17,10 @@ const ListHeaderPath = () => {
             itemtype="https://schema.org/ListItem"
             className="list-li"
           >
-            <a href="/" itemprop="item" title="Home" className="home-path">
+            <Link to="/" itemprop="item" title="Home" className="home-path">
               Home
               <meta itemprop="name" content="Home" />
-            </a>
+            </Link>
             <meta itemprop="position" content="1" />
           </li>
           <li className="home-path home-path-a">/</li>

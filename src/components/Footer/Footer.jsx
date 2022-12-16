@@ -3,124 +3,124 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer-div-a">
-        <div class="footer-div-b footer-div-c">
-          <section class="footer-section-a">
-            <span class="footer-span-a footer-span-b footer-span-c">Popular Categories</span>
-            <ul class="footer-ul">
+    <footer className="footer">
+      <div className="footer-div-a">
+        <div className="footer-div-b footer-div-c">
+          <section className="footer-section-a">
+            <span className="footer-span-a footer-span-b footer-span-c">Popular Categories</span>
+            <ul className="footer-ul">
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Cars</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Cars</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Flats for rent</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Flats for rent</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Mobile Phones</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Mobile Phones</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Jobs</span>
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section class="footer-section-a">
-            <span class="footer-spna-a footer-span-b footer-span-c">Trending Searches</span>
-            <ul class="footer-ul">
-              <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Bikes</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Watches</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Books</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Dogs</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Jobs</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="footer-section-a">
-            <span class="footer-spna-a footer-span-b footer-span-c">About Us</span>
-            <ul class="footer-ul">
+          <section className="footer-section-a">
+            <span className="footer-spna-a footer-span-b footer-span-c">Trending Searches</span>
+            <ul className="footer-ul">
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">About EMPG</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Bikes</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">OLX Blog</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Watches</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Books</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Dogs</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section className="footer-section-a">
+            <span className="footer-spna-a footer-span-b footer-span-c">About Us</span>
+            <ul className="footer-ul">
+              <li>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">About EMPG</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">OLX Blog</span>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="footer-ul-anchor"
+                  className="footer-ul-anchor"
                 >
-                  <span class="footer-ul-span">Contact Us</span>
+                  <span className="footer-ul-span">Contact Us</span>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="footer-ul-anchor"
+                  className="footer-ul-anchor"
                 >
-                  <span class="footer-ul-span">OLX for Businesses</span>
+                  <span className="footer-ul-span">OLX for Businesses</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="footer-section-a">
-            <span class="footer-spna-a footer-span-b footer-span-c">OLX</span>
-            <ul class="footer-ul">
+          <section className="footer-section-a">
+            <span className="footer-spna-a footer-span-b footer-span-c">OLX</span>
+            <ul className="footer-ul">
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Help</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Help</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-ul-anchor">
-                  <span class="footer-ul-span">Sitemap</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="footer-ul-anchor"
-                >
-                  <span class="footer-ul-span">Terms of use</span>
+                <a href="#" className="footer-ul-anchor">
+                  <span className="footer-ul-span">Sitemap</span>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="footer-ul-anchor"
+                  className="footer-ul-anchor"
                 >
-                  <span class="footer-ul-span">Privacy Policy</span>
+                  <span className="footer-ul-span">Terms of use</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="footer-ul-anchor"
+                >
+                  <span className="footer-ul-span">Privacy Policy</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="footer-section-b">
-            <span class="footer-spna-a footer-span-b footer-span-c">Follow us</span>
-            <div class="footer-icons-a footer-icons-b footer-icons-c">
+          <section className="footer-section-b">
+            <span className="footer-spna-a footer-span-b footer-span-c">Follow us</span>
+            <div className="footer-icons-a footer-icons-b footer-icons-c">
               <a
                 href="#"
                 
@@ -162,7 +162,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div class="footer-icons-a footer-apps-a footer-icons-c">
+            <div className="footer-icons-a footer-apps-a footer-icons-c">
               <a
                 href="#"
                 
@@ -171,7 +171,7 @@ const Footer = () => {
                 <img
                   src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
                   alt="App Store"
-                  class="footer-apps-imges"
+                  className="footer-apps-imges"
                 />
               </a>
               <a
@@ -182,7 +182,7 @@ const Footer = () => {
                 <img
                   src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
                   alt="Google Play"
-                  class="footer-apps-imges"
+                  className="footer-apps-imges"
                 />
               </a>
               <a
@@ -193,17 +193,17 @@ const Footer = () => {
                 <img
                   src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
                   alt="App Gallery"
-                  class="footer-apps-imges"
+                  className="footer-apps-imges"
                 />
               </a>
             </div>
           </section>
         </div>
       </div>
-      <div class="footer-last-row">
-        <div class="footer-div-b">
-          <div class="footer-last-row-div">
-            <span>Free Classifieds in Pakistan</span> . © 2006-2022 OLX
+      <div className="footer-last-row">
+        <div className="footer-div-b">
+          <div className="footer-last-row-div">
+            <span>Free ClassNameifieds in Pakistan</span> . © 2006-2022 OLX
           </div>
         </div>
       </div>

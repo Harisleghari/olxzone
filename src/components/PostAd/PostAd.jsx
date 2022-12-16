@@ -44,7 +44,7 @@ const PostAd = () => {
         <div className="select-post">
           <div>
             <div className="details-a">
-              <form>
+              <form action="/sell" method="post">
                 <div className="form-div-a">
                   <span className="span-a span-b span-c">
                     Include some details

@@ -1,20 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import { useState } from "react";
-// import CheckBox from "../CheckBox/CheckBox";
-import "./header.css";
+import "./header.css"
 import {Link} from "react-router-dom";
 
 const Header = () => {
-  // const [mode, setMode] = useState(true);
-
-  // const clickHandle = () => {
-  //   setMode(!mode);
-  // }
 
   return (
     <header className="header-a">
       <div className="header-div-a-1 header-div-a-2">
-        <div classNameName="header-div-a-logo">
+        <div className="header-div-a-logo">
           <Link to="/" className="header-div-a-logo-1">
             <svg
               height="20"
@@ -42,8 +35,8 @@ const Header = () => {
                 y2="1"
                 gradientUnits="objectBoundingBox"
               >
-                <stop offset="0" stop-color="#ddd"></stop>
-                <stop offset="1" stop-color="#fff"></stop>
+                <stop offset="0" stopColor="#ddd"></stop>
+                <stop offset="1" stopColor="#fff"></stop>
               </linearGradient>
             </defs>
             <path
@@ -78,8 +71,8 @@ const Header = () => {
                 y2="1"
                 gradientUnits="objectBoundingBox"
               >
-                <stop offset="0" stop-color="#ddd"></stop>
-                <stop offset="1" stop-color="#fff"></stop>
+                <stop offset="0" stopColor="#ddd"></stop>
+                <stop offset="1" stopColor="#fff"></stop>
               </linearGradient>
             </defs>
             <path
@@ -125,7 +118,7 @@ const Header = () => {
               </div>
               <input
                 type="text"
-                spellcheck="false"
+                spellCheck="false"
                 className="input-location-a"
                 autoComplete="location-search"
                 placeholder="Search city, area or locality"
@@ -161,7 +154,7 @@ const Header = () => {
                 <div className="find-bar-search-d find-bar-search-e">
                   <input
                     type="search"
-                    spellcheck="false"
+                    spellCheck="false"
                     className="find-bar-search-inp"
                     autoComplete="free-text-search"
                     placeholder="Find Cars, Mobile Phones and more..."

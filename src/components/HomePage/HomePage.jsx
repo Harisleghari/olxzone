@@ -3,21 +3,17 @@ import "./homepage.css";
 import Header from "../Header/Header.jsx";
 import MainCategories from "../MainCategories/MainCategories.jsx";
 import MainAdd from "../MainAd/MainAd.jsx";
-import AdPlacementTop from "../AdPlacementTop/AdPlacementTop.jsx";
 import FreshRecommendation from "../FreshRecommendation/FreshRecommendation.jsx";
-import AdPlacementBottom from "../AdPlacementBottom/AdPlacementBottom.jsx";
 import TryApp from "../TryApp/TryApp.jsx";
 import Footer from "../Footer/Footer.jsx";
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
     <>
       <Header />
-      <MainCategories />
+      <MainCategories/>
       <MainAdd />
-      <AdPlacementTop />
-      <FreshRecommendation />
-      <AdPlacementBottom />
+      <FreshRecommendation/>
       <TryApp />
       <Footer />
     </>
