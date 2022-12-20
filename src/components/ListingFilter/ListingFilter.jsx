@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listingfilter.css";
+// import {Link} from "react-router-dom"
 
-const ListingFilter = () => {
+const ListingFilter = (props) => {
   return (
     <div className="listing-fliter-div" aria-label="Filters list">
       <div className="listing-div-body-2-a listing-div-body-2-b listing-div-body-2-c">
@@ -17,7 +18,8 @@ const ListingFilter = () => {
               <span className="filters-span-a ">All categories</span>
             </div>
           </a>
-          <a href="#" rel="follow">
+          
+          {/* <a href="#" rel="follow">
             <div style={{ marginLeft: "16px" }}>
               <div className="cate-1">
                 <span className="filters-span-a ">Mobiles</span>
@@ -27,7 +29,7 @@ const ListingFilter = () => {
           <a href="#" rel="follow">
             <div style={{ marginLeft: "32px;" }}>
               <div className="cate-1">
-                <span className="filters-span-a  filters-span-c">Mobile Phones</span>
+                <span className="filters-span-a  filters-span-c filters-span-b">Mobile Phones</span>
                 <span className="filters-span-a numbers-a">(152781)</span>
               </div>
             </div>
@@ -43,7 +45,7 @@ const ListingFilter = () => {
           <a href="#" rel="follow">
             <div style={{ marginLeft: "32px" }}>
               <div className="cate-1">
-                <span className="filters-span-a filters-span-b">Smart Watches</span>
+                <span className="filters-span-a">Smart Watches</span>
                 <span className="filters-span-a numbers-a">(8644)</span>
               </div>
             </div>
@@ -51,11 +53,11 @@ const ListingFilter = () => {
           <a href="#" rel="follow">
             <div style={{ marginLeft: "32px" }}>
               <div className="cate-1">
-                <span className="filters-span-a filters-span-b">Tablets</span>
+                <span className="filters-span-a">Tablets</span>
                 <span className="filters-span-a numbers-a">(5960)</span>
               </div>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="listing-div-body-2-a listing-body-2-1-b">
@@ -96,7 +98,7 @@ const ListingFilter = () => {
                 </div>
               </a>
             </div>
-            <div style={{ marginLeft: "16px" }}>
+            {/* <div style={{ marginLeft: "16px" }}>
               <div>
                 <a href="#">
                   <div className="cate-1">
@@ -146,7 +148,7 @@ const ListingFilter = () => {
                 </div>
               </div>
               <button className="btn-view-more">View more</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -165,12 +167,12 @@ const ListingFilter = () => {
                     autocomplete="nope"
                     type="text"
                     placeholder="Min"
-                    value="250"
+                    value="10"
                   />
                 </div>
                 <div className="ff">
                   <span className="ff-span-a">
-                    <span className="ff-span-b">PKR 250</span>
+                    <span className="ff-span-b">PKR 10</span>
                   </span>
                 </div>
               </div>
@@ -197,7 +199,7 @@ const ListingFilter = () => {
           </div>
         </div>
       </div>
-      <div className="cate-filters">
+      {/* <div className="cate-filters">
         <div className="cate-filters-div-a">
           <span className="span-a span-b span-c">Brand</span>
         </div>
@@ -328,8 +330,8 @@ const ListingFilter = () => {
           </div>
           <button className="btn-view-more">View more</button>
         </div>
-      </div>
-      <div className="cate-filters">
+      </div> */}
+      {/* <div className="cate-filters">
         <div className="cate-filters-div-a">
           <span className="span-a span-b span-c">Condition</span>
         </div>
@@ -418,7 +420,7 @@ const ListingFilter = () => {
             <div className="view-more-cls"></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

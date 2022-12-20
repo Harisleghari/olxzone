@@ -1,24 +1,29 @@
+/* eslint-disable no-template-curly-in-string */
 import "./card.css";
 import { Link } from "react-router-dom";
 
-const Card = () => {
-    return (
-        <li className="" aria-label="Listing">
+const Card = (props) => {
+
+      return (
+       <>
+        {props.initialPosts.map((items, index)=> {
+          return (
+            <li className="" aria-label="Listing" key={items.id}>
             <article className="main-list-articles">
               <div className="main-list-articles-inside-div">
                 <Link
-                  to="/list"
-                  title="original persian kitty&#x27;s"
+                  to={`/list/${items.id}`}
+                  title={items.title}
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
                 </Link>
                 <picture className="main-list-arcticles-images">
                   <img
                     role="presentation"
-                    alt="original persian kitty&#x27;s"
-                    title="original persian kitty&#x27;s"
+                    alt={items.title}
+                    title={items.title}
                     aria-label="Cover photo"
-                    src="https://img.freepik.com/premium-photo/red-persian-cat-with-leash-walking-yard_231786-3022.jpg?w=740"
+                    src={items.image}
                     className="main-list-articles-inside-div-images-1"
                   />
                 </picture>
@@ -26,21 +31,21 @@ const Card = () => {
               </div>
               <div className="main-list-articles-inside-2nd-div">
                 <Link
-                  to="/list"
-                  title="original persian kitty&#x27;s"
+                  to={`/list/${items.id}`}
+                  title={items.title}
                 >
                   <div className="main-list-arcticles-anchor-inside-div"></div>
                 </Link>
                 <div className="main-list-articles-inside-2nd-div-1">
                   <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
-                    original persian kitty&#x27;s
+                    {items.title}
                   </div>
                   <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
-                    <span>Rs 16,500</span>
+                    <span>Rs {items.price}</span>
                   </div>
                   <Link
-                    to="/list"
-                    title="original persian kitty&#x27;s"
+                    to={`/list/${items.id}`}
+                    title={items.title}
                   >
                     <div className="main-list-arcticles-anchor-inside-div"></div>
                   </Link>
@@ -56,17 +61,22 @@ const Card = () => {
                 </div>
                 <div className="main-list-articles-inside-2nd-div-2">
                   <div className="main-list-articles-inside-2nd-div-2-a">
-                    <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
-                      Mughalpura, Lahore<span className="main-list-articles-inside-2nd-div-2-location">•</span>
-                    </span>
-                    <span className="main-list-articles-inside-2nd-div-2-span-b">
+                    {/* <span className="main-list-articles-inside-2nd-div-2-span" aria-label="Location">
+                      {items.location}<span className="main-list-articles-inside-2nd-div-2-location">•</span>
+                    </span> */}
+                    {/* <span className="main-list-articles-inside-2nd-div-2-span-b">
                       <span aria-label="Creation date">0 minutes ago</span>
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>
             </article>
           </li>
+          );
+        })}
+       </>
+
+        
     )
 }
 

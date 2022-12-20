@@ -10,6 +10,16 @@
     
 
    /* Posted Section */
+   .box8{
+    font-size: 34px;
+   }
+   .box9{
+    color: #002F34;
+    font-size: 22px;
+   }
+   .box10{
+    color:#3a77ff
+  }
   .box1{
     position: relative;
   }

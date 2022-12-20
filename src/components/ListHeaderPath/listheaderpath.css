@@ -1,16 +1,19 @@
 .list-header-div {
     margin-top: 1.6rem;
+    margin-right: 70%;
 }
 
 .bread-crumb {
     position: relative;
+    margin-right: 100px;
 }
 
 .list-ul {
-    display: inline-flex;
-    align-items: center;
+    display:flex;
+    align-items: left;
+    justify-content: left;
     flex-wrap: wrap;
-    margin: 0;
+    margin:0 100px!important;
     padding-bottom: 0.8rem;
     max-width: 100%;
 }
@@ -24,7 +27,6 @@
     color: rgba(0,47,52,.64);
     text-decoration: none;
 }
-
-.home-path-a {
+ .home-path-a {
     margin: 0 0.8rem;
-}
+} 

@@ -17,15 +17,6 @@ const HomePage = (props) => {
       <TryApp />
       <Footer />
     </>
-
-    // <>
-    //  <h1>Home page</h1>
-    //     <ul>
-    //         <li><Link to="/" >Home</Link></li>
-    //         <li><Link to="/listing" >Listing</Link></li>
-    //         <li><Link to="/list" >List</Link></li>
-    //     </ul>
-    // </>
   );
 };
 

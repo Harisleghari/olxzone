@@ -1,12 +1,67 @@
 import "./postad.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import axios from "axios";
 
 const PostAd = () => {
+  const url = "https://fakestoreapi.com/products";
+  const [postData, setPostData] = useState({
+    title: '',
+    price: Number,
+    description: '',
+    image: '',
+    category: ''
+  });
+
+  const onChangedHandler = (e) => {
+    const { name, value } = e.target;
+    setPostData((pre) => {
+      return ({...pre,[name]:value})
+    });
+  };
+
+  const clickButton = (e) => {
+    e.preventDefault();
+
+    axios.post(url, postData)
+  .then(res => console.log(res))
+  .catch(err => console.log(err))
+  };
+
+  
+
+
+  // const url = "http://localhost:9000/sell";
+  // const [postData, setPostData] = useState({
+  //   title: "",
+  //   description: "",
+  //   price: "",
+  //   location: "",
+  //   name: "",
+  //   number: "",
+  // });
+
+  // const onChangedHandler = (e) => {
+  //   const { name, value } = e.target;
+  //   setPostData({
+  //     [name]: value,
+  //   });
+  // };
+
+  // const clickButton = (e) => {
+  //   e.preventDefault();
+
+  //   axios
+  //     .post(url, postData)
+  //     .then((res) => console.log(res))
+  //     .catch((err) => console.log(err));
+  // };
+
   return (
     <div
       id="body-wrapper"
       className="post-ad-wrap-a post-ad-wrap-b"
-      style={{ top: "unset;" }}
+      style={{ top: "unset" }}
     >
       <header className="post-ad-header">
         <div
@@ -51,22 +106,23 @@ const PostAd = () => {
                   </span>
                 </div>
                 <div className="details-form">
-                  <div className="details-form-div">
-                    <label for="title" className="details-label">
-                      <span className="details-span">Ad title</span>
+                <div className="details-form-div">
+                    <label htmlFor="title" className="details-label">
+                      <span className="details-span">Ad Category</span>
                     </label>
                     <div className="details-div-2">
                       <input
-                        id="title"
-                        name="title"
-                        spellcheck="false"
+                        id="category"
+                        name="category"
+                        value={postData.category}
+                        onChange={onChangedHandler}
+                        spellCheck="false"
                         className="details-div-2-inp"
-                        maxlength="70"
-                        autocomplete="nope"
-                        value=""
+                        maxLength="70"
+                        autoComplete="nope"
                       />
                     </div>
-                    <div className="details-div-3">
+                    {/* <div className="details-div-3">
                       <span className="details-div-3-span">
                         <span className="details-div-3-span-a">
                           Mention the key features of your item (e.g. brand,
@@ -76,20 +132,52 @@ const PostAd = () => {
                       <span className="details-div-3-span-a-a">
                         <span className="details-div-3-span-a">0/70</span>
                       </span>
+                    </div> */}
+                  </div>
+                  <div className="hr-2"></div>
+                  <div className="details-form-div">
+                    <label htmlFor="title" className="details-label">
+                      <span className="details-span">Ad title</span>
+                    </label>
+                    <div className="details-div-2">
+                      <input
+                        id="title"
+                        name="title"
+                        value={postData.title}
+                        onChange={onChangedHandler}
+                        spellCheck="false"
+                        className="details-div-2-inp"
+                        maxLength="70"
+                        autoComplete="nope"
+                      />
+                    </div>
+                    <div className="details-div-3">
+                      <span className="details-div-3-span">
+                        <span className="details-div-3-span-a">
+                          Mention the key features of your item (e.g. brand,
+                          model, age, type)
+                        </span>
+                      </span>
+                      {/* <span className="details-div-3-span-a-a">
+                        <span className="details-div-3-span-a">0/70</span>
+                      </span> */}
                     </div>
                   </div>
+                  <div className="hr-2"></div>
                   <div className="details-form-div">
-                    <label for="description" className="details-label">
+                    <label htmlFor="description" className="details-label">
                       <span className="details-span">Description</span>
                     </label>
                     <div className="details-div-2 description-div">
                       <textarea
                         id="description"
                         name="description"
-                        spellcheck="false"
+                        spellCheck="false"
                         className="details-div-2-inp"
-                        maxlength="4096"
-                        autocomplete="nope"
+                        maxLength="4096"
+                        autoComplete="nope"
+                        value={postData.description}
+                        onChange={onChangedHandler}
                       ></textarea>
                     </div>
                     <div className="details-div-3">
@@ -98,9 +186,9 @@ const PostAd = () => {
                           Include condition, features and reason for selling
                         </span>
                       </span>
-                      <span className="details-div-3-span-a-a">
+                      {/* <span className="details-div-3-span-a-a">
                         <span className="details-div-3-span-a">0/4096</span>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                   <div className="hr-line-a"></div>
@@ -108,7 +196,7 @@ const PostAd = () => {
                     <span className="span-a span-b span-c">Set a price</span>
                   </div>
                   <div className="details-form-div">
-                    <label for="price" className="details-label">
+                    <label htmlFor="price" className="details-label">
                       <span className="details-span">Price</span>
                     </label>
                     <div className="details-div-2">
@@ -118,11 +206,12 @@ const PostAd = () => {
                       <input
                         id="price"
                         name="price"
-                        spellcheck="false"
+                        spellCheck="false"
                         className="details-div-2-inp"
-                        autocomplete="nope"
+                        autoComplete="nope"
                         type="text"
-                        value=""
+                        value={postData.price}
+                        onChange={onChangedHandler}
                       />
                     </div>
                     <div className="details-div-3"></div>
@@ -130,16 +219,29 @@ const PostAd = () => {
                   <div className="hr-2"></div>
                   <div className="form-div-a">
                     <span className="span-a span-b span-c">
-                      Upload up to 20 photos
+                      Upload photo URL
                     </span>
                   </div>
                   <div>
-                    <label className="images-label">
+                  
+                      <div className="details-div-2">
+                      <input
+                        id="image"
+                        name="image"
+                        value={postData.image}
+                        onChange={onChangedHandler}
+                        spellCheck="false"
+                        className="details-div-2-inp"
+                        maxLength="70"
+                      />
+                    
+                    </div>
+                    {/* <label className="images-label">
                       <input
                         type="file"
                         name="photos"
                         accept="image/png, image/jpeg"
-                        autocomplete="off"
+                        autoComplete="off"
                         multiple=""
                         className="images-input"
                       />
@@ -170,43 +272,44 @@ const PostAd = () => {
                           <div className="img-borders"></div>
                         </div>
                       </div>
-                    </label>
-                    <span className="details-div-3-span">
+                    </label> */}
+                    {/* <span className="details-div-3-span">
                       <span className="details-div-3-span-a">
                         For the cover picture we recommend using the landscape
                         mode.
                       </span>
-                    </span>
+                    </span> */}
                   </div>
                   <div className="hr-2"></div>
-                  <div className="form-div-a">
+                  {/* <div className="form-div-a">
                     <span className="span-a span-b span-c">
                       Your Ad's Location
                     </span>
-                  </div>
-                  <div className="location-div" aria-label="Filterable input">
+                  </div> */}
+                  {/* <div className="location-div" aria-label="Filterable input">
                     <div>
                       <div className="details-form-div">
-                        <label for="Location" className="details-label">
+                        <label htmlFor="Location" className="details-label">
                           <span className="details-span">Location</span>
                         </label>
                         <div className="details-div-2">
                           <input
                             id="Location"
                             className="post-ad-header-div-a location-div-inside post-ad-header-div-c"
+                            value={postData.location}
+                            onChange={onChangedHandler}
                           />
                         </div>
-                        
                       </div>
                     </div>
-                  </div>
-                  <div className="hr-2"></div>
-                  <div className="form-div-a">
+                  </div> */}
+                  {/* <div className="hr-2"></div> */}
+                  {/* <div className="form-div-a">
                     <span className="span-a span-b span-c">
                       Review your details
                     </span>
-                  </div>
-                  <div className="post-ad-header-div-a">
+                  </div> */}
+                  {/* <div className="post-ad-header-div-a">
                     <div className="profile-pic">
                       <img
                         className="profile-img-a profile-img-b"
@@ -215,30 +318,31 @@ const PostAd = () => {
                       />
                     </div>
                     <div className="details-form-div">
-                      <label for="name" className="details-label">
+                      <label htmlFor="name" className="details-label">
                         <span className="details-span">Name</span>
                       </label>
                       <div className="details-div-2">
                         <input
                           id="name"
                           name="name"
-                          spellcheck="false"
+                          spellCheck="false"
                           className="details-div-2-inp"
-                          autocomplete="nope"
+                          autoComplete="nope"
                           type="text"
-                          value=""
+                          value={postData.name}
+                          onChange={onChangedHandler}
                         />
                       </div>
                       <div className="details-div-3"></div>
                     </div>
-                  </div>
-                  <div>
+                  </div> */}
+                  {/* <div>
                     <span className="span-a span-b">
                       Let's verify your account
                     </span>
-                  </div>
-                  <div className="details-form-div">
-                    <label for="phone_number" className="details-label">
+                  </div> */}
+                  {/* <div className="details-form-div">
+                    <label htmlFor="phone_number" className="details-label">
                       <span className="details-span">Mobile Phone Number</span>
                     </label>
                     <div className="details-div-2 phone-a">
@@ -247,20 +351,25 @@ const PostAd = () => {
                       </span>
                       <input
                         id="phone_number"
-                        name="phone_number"
-                        spellcheck="false"
+                        name="number"
+                        spellCheck="false"
                         className="details-div-2-inp d4b3e258"
-                        autocomplete="nope"
+                        autoComplete="nope"
                         type="text"
                         placeholder="Phone number"
-                        value=""
+                        value={postData.number}
+                        onChange={onChangedHandler}
                       />
                     </div>
                     <div className="details-div-3"></div>
-                  </div>
-                  <div className="hr-2"></div>
+                  </div> */}
+                  {/* <div className="hr-2"></div> */}
                   <div className="button-div">
-                    <button className="button-div-a button-div-b" type="submit">
+                    <button
+                      className="button-div-a button-div-b"
+                      type="submit"
+                      onClick={clickButton}
+                    >
                       <span className="button-div-span span-b">Post now</span>
                     </button>
                   </div>

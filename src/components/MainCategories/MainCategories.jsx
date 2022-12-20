@@ -1,18 +1,30 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import "./maincategories.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import camelCase from 'camelcase';
 
 const MainCategories = () => {
   const [mode, setMode] = useState(true);
+  const [categories, setCategories] = useState([])
 
   const clickHandler = () => {
     setMode(!mode);
-  }
+  };
+
+
+  useEffect(() => {
+    axios.get("https://fakestoreapi.com/products/categories")
+    .then(response => {
+      setCategories(response.data);
+   })
+   .catch((e) => console.log(e));
+  }, []);
   return (
     <div className="main-categories-div">
       <div className="main-categories-div-a main-categories-div-b">
-        <div className="main-all-categories-div">
+      <div className="main-all-categories-div">
           <div className="main-all-categories-div-a" onClick={clickHandler}>
             All categories
             <img
@@ -20,13 +32,52 @@ const MainCategories = () => {
               className="main-all-categories-div-a-img"
               alt="Dropdown arrow"
             />
-
-            
           </div>
           <div>
-            <div style={mode? {display:"none" }: {display:"block"}} id="dropdown">
+            <div
+              style={mode ? { display: "none" } : { display: "block" }}
+              id="dropdown"
+            >
               <div className="all-categories-dropdown-a" aria-label="Categories">
-                <div className="all-categories-dropdown-a-1">
+              {categories.map((item) => {
+                return (
+                  <>
+                  <div className="all-categories-dropdown-a-1">
+                  <div className="all-categories-dropdown-a-1-a">
+                    <Link to={`/listing/${item}`} className="all-categories-dropdown-a-1-a-link">
+                    {camelCase(item, {pascalCase: true})}
+                    </Link>
+                  </div>
+                  {/* <div className="all-categories-dropdown-a-1-a-categories">
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
+                      Mobile Phones
+                    </a>
+                  </div>
+                  <div className="all-categories-dropdown-a-1-a-categories">
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
+                      Accessories
+                    </a>
+                  </div>
+                  <div className="all-categories-dropdown-a-1-a-categories">
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
+                      Smart Watches
+                    </a>
+                  </div>
+                  <div className="all-categories-dropdown-a-1-a-categories">
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
+                      Tablets
+                    </a>
+                  </div> */}
+                </div>
+                </>
+                )
+                
+              })
+              }
+
+
+
+                {/* <div className="all-categories-dropdown-a-1">
                   <div className="all-categories-dropdown-a-1-a">
                     <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Mobiles
@@ -127,10 +178,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Shops - Offices - Commercial Space
                     </a>
                   </div>
@@ -162,10 +210,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Shops - Offices - Commercial Space
                     </a>
                   </div>
@@ -180,10 +225,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Vacation Rentals - Guest Houses
                     </a>
                   </div>
@@ -195,10 +237,7 @@ const MainCategories = () => {
                 </div>
                 <div className="all-categories-dropdown-a-1">
                   <div className="all-categories-dropdown-a-1-a">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Electronics &amp; Home Appliances
                     </a>
                   </div>
@@ -218,10 +257,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Generators, UPS &amp; Power Solutions
                     </a>
                   </div>
@@ -290,10 +326,7 @@ const MainCategories = () => {
                 </div>
                 <div className="all-categories-dropdown-a-1">
                   <div className="all-categories-dropdown-a-1-a">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Business, Industrial &amp; Agriculture
                     </a>
                   </div>
@@ -318,10 +351,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Construction &amp; Heavy Machinery
                     </a>
                   </div>
@@ -373,10 +403,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Electronics &amp; Computer Repair
                     </a>
                   </div>
@@ -503,10 +530,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Restaurants &amp; Hospitality
                     </a>
                   </div>
@@ -546,10 +570,7 @@ const MainCategories = () => {
                     </a>
                   </div>
                   <div className="all-categories-dropdown-a-1-a-categories">
-                    <a
-                      href="#"
-                      className="all-categories-dropdown-a-1-a-link"
-                    >
+                    <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Architecture &amp; Interior Design
                     </a>
                   </div>
@@ -793,16 +814,34 @@ const MainCategories = () => {
                       Swings &amp; Slides
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-        <div className="horizontal-categories-list">
-          <Link to="/listing" className="all-categories-dropdown-a-1-a-link">
+
+
+
+
+
+        
+        {categories.map((item => {
+          return (
+            <>
+            <div className="horizontal-categories-list">
+            <Link to={`/listing/${item}`} className="all-categories-dropdown-a-1-a-link">
+            {camelCase(item, {pascalCase: true})}
+          </Link>
+            </div>
+            </>
+          )
+        }))}
+
+        {/* <div className="horizontal-categories-list">
+            <Link to="/listing" className="all-categories-dropdown-a-1-a-link">
             Mobile Phones
           </Link>
-        </div>
+        </div> 
         <div className="horizontal-categories-list">
           <Link to="/listing" className="all-categories-dropdown-a-1-a-link">
             Cars
@@ -832,7 +871,7 @@ const MainCategories = () => {
           <Link to="/listing" className="all-categories-dropdown-a-1-a-link">
             Land &amp; Plots
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

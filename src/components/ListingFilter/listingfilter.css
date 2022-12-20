@@ -62,9 +62,6 @@
 }
 
 .listing-body-2-1-b {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -78,8 +75,6 @@
 }
 
 .feb-div-1-a {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
 }
 
@@ -96,9 +91,6 @@
 .feb-div-inp {
     color: #002f34;
     font-size: 1.596rem;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     background: none;
     border: none;
     outline: none;
@@ -106,8 +98,6 @@
     margin: 0 0 0 1.2rem;
     width: 100%;
     height: 100%;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -115,8 +105,6 @@
 }
 
 .feb-div-1-c {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -124,10 +112,7 @@
     width: 1.3rem;
     height: 1.3rem;
     margin-right: 1.6rem;
-    -webkit-transition: -webkit-transform .2s;
-    transition: -webkit-transform .2s;
     transition: transform .2s;
-    transition: transform .2s,-webkit-transform .2s;
     cursor: pointer;
 }
 
@@ -138,8 +123,6 @@
 .btn-view-more {
     background: none;
     border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     margin: 0;
     padding: 0;
@@ -151,8 +134,6 @@
 
 
 .price-div-a {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     white-space: nowrap;
     overflow: hidden;
@@ -175,11 +156,7 @@
 }
 
 .ff {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
         margin-top: 0.2rem;
 }
@@ -228,20 +205,13 @@
     min-height: 2.4rem;
     margin: 0;
     cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     outline: none;
     border: 0.1rem solid #002f34;
 }
 
 .condition-label {
     margin-left: 0.8rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     color: rgba(0,47,52,.64);
     cursor: pointer;
