@@ -1,6 +1,5 @@
 .main-categories-div {
     padding: 1.2rem;
-    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
 }
 
@@ -8,16 +7,11 @@
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transition: max-width .25s ease-in;
     transition: max-width .25s ease-in;
 }
 
 .main-categories-div-b {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     position: relative;
 }
@@ -52,10 +46,7 @@
     min-width: 750px;
     padding: 1.6rem;
     background-color: #fff;
-    -webkit-box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
     column-count: 4;
     z-index: 10;
 }

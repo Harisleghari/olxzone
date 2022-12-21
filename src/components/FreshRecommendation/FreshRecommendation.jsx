@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./freshrecommendation.css";
 import React, { useState, useEffect } from "react";
@@ -6,8 +7,10 @@ import Card from "../Card/Card.jsx";
 import LoadMore from "../LoadMore/LoadMore.jsx";
 import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 import axios from "axios";
+import Loader from "../Loader/Loader";
 
 const FreshRecommendation = (props) => {
+  let [isLoding, setIsLoading] = useState(true)
   const [post, setPost] = useState([]);
   const [isCompleted, setIsCompleted] = useState(false);
   const [index, setIndex] = useState(12);
@@ -26,12 +29,15 @@ const FreshRecommendation = (props) => {
       .get("https://fakestoreapi.com/products")
       .then((response) => {
         setPost(response.data);
+        setIsLoading(isLoding=false);
       })
       .catch((e) => console.log(e));
   }, []);
 
   return (
-    <div className="main-fresh-recommendation-wrap-a main-fresh-recommendation-wrap-b main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-d main-fresh-recommendation-wrap-e">
+    <>
+      {isLoding ? <Loader /> :
+      <div className="main-fresh-recommendation-wrap-a main-fresh-recommendation-wrap-b main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-d main-fresh-recommendation-wrap-e">
       <ScrollToTopButton />
       <div className="main-list-fresh-recom">
         <span className="main-list-fresh-recom-name-a">
@@ -44,7 +50,10 @@ const FreshRecommendation = (props) => {
       </div>
 
   
-    </div>
+    </div> 
+      }
+    </>
+    
   );
 };
 

@@ -1,13 +1,16 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./maincategories.css";
 import { Link } from "react-router-dom";
 import camelCase from 'camelcase';
+import Loader from "../Loader/Loader";
 
 const MainCategories = () => {
   const [mode, setMode] = useState(true);
-  const [categories, setCategories] = useState([])
+  const [categories, setCategories] = useState([]);
+  let [isLoding, setIsLoading] = useState(true);
 
   const clickHandler = () => {
     setMode(!mode);
@@ -18,11 +21,14 @@ const MainCategories = () => {
     axios.get("https://fakestoreapi.com/products/categories")
     .then(response => {
       setCategories(response.data);
+      setIsLoading(isLoding=false);
    })
    .catch((e) => console.log(e));
   }, []);
   return (
-    <div className="main-categories-div">
+    <>
+      {isLoding ? <Loader /> :
+      <div className="main-categories-div">
       <div className="main-categories-div-a main-categories-div-b">
       <div className="main-all-categories-div">
           <div className="main-all-categories-div-a" onClick={clickHandler}>
@@ -30,6 +36,7 @@ const MainCategories = () => {
             <img
               src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
               className="main-all-categories-div-a-img"
+              style={mode ? null : { transform:"rotate(180deg)"}}
               alt="Dropdown arrow"
             />
           </div>
@@ -873,7 +880,9 @@ const MainCategories = () => {
           </Link>
         </div> */}
       </div>
-    </div>
+    </div> 
+      }
+    </>
   );
 };
 
