@@ -1,28 +1,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listingads.css";
 import { useState } from "react";
-import { slice } from 'lodash'
+import { slice } from "lodash";
 import ListingCard from "../ListingCard/ListingCard.jsx";
 import LoadMore from "../LoadMore/LoadMore.jsx";
 import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton.jsx";
 
 const ListingAds = (props) => {
-  const [isCompleted, setIsCompleted] = useState(false)
-  const [index, setIndex] = useState(4)
-  const initialPosts = slice(props.categoryList, 0, index)
+  const [isCompleted, setIsCompleted] = useState(false);
+  const [index, setIndex] = useState(4);
+  const initialPosts = slice(props.categoryList, 0, index);
   const loadMore = () => {
-    setIndex(index + 2)
-    console.log(index)
+    setIndex(index + 2);
+    console.log(index);
     if (index >= props.categoryList.length) {
-      setIsCompleted(true)
+      setIsCompleted(true);
     } else {
-      setIsCompleted(false)
+      setIsCompleted(false);
     }
-  }
+  };
 
   return (
     <div className="listing-ads-div">
-    <ScrollToTopButton />
+      <ScrollToTopButton />
       <div className="listing-div-a-1 listing-div-a-2 listing-div-a-3 listing-div-a-4">
         <div className="listing-div-a-1 below-btn-a below-btn-b listing-div-a-2">
           <div className="ads-count" aria-label="Ads count">
@@ -32,10 +32,7 @@ const ListingAds = (props) => {
             <a href="#">
               <div className="listing-div-a-1 view-side-a listing-div-a-2">
                 <div className="listing-div-a-1 view-side-div-a">
-                  <input
-                    type="checkbox"
-                    className="view-side-checkbox"
-                  />
+                  <input type="checkbox" className="view-side-checkbox" />
                   <label className="label-view-side">
                     <span className="view-side-span-a">Only with photos</span>
                   </label>
@@ -82,8 +79,8 @@ const ListingAds = (props) => {
           </div>
         </div>
         <ul className="ul-div-a ul-div-b">
-          <ListingCard initialPosts={initialPosts}/>
-          <LoadMore isCompleted={isCompleted} loadMore={loadMore}/>
+          <ListingCard initialPosts={initialPosts} />
+          <LoadMore isCompleted={isCompleted} loadMore={loadMore} />
         </ul>
       </div>
     </div>

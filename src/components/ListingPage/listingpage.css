@@ -1,9 +1,3 @@
-*,
-:after,
-:before {
-  box-sizing: inherit;
-}
-
 .wallpaper-ad-body {
   overflow: hidden;
   width: 100%;
@@ -44,9 +38,6 @@
 }
 
 .Listing-ad-page-whole-c {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 

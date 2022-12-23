@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./header.css"
-import {Link} from "react-router-dom";
+import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-
   return (
     <header className="header-a">
       <div className="header-div-a-1 header-div-a-2">
@@ -52,10 +51,7 @@ const Header = () => {
             <path d="M12 16a1.2 1.2 0 1 0 1.1 1.2A1.2 1.2 0 0 0 12 16zm0 1.6a.4.4 0 1 1 .3-.4.4.4 0 0 1-.4.4zm9.6-1.6a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2zm0 1.6a.4.4 0 1 1 .5-.4.4.4 0 0 1-.5.4zm-7.8.2h6v.8h-6z"></path>
           </svg>
         </a>
-        <a
-          href="#"
-          className="header-div-a-logo"
-        >
+        <a href="#" className="header-div-a-logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="97.25"
@@ -161,7 +157,6 @@ const Header = () => {
                   />
                   {/* <CheckBox /> */}
                 </div>
-                
               </div>
               <button
                 aria-label="Search"
@@ -182,36 +177,35 @@ const Header = () => {
         </div>
         <div className="login-main-a">
           <div>
-          <Link to="#">
-            <button
-              aria-label="Login"
-              className="login-main-btn-a login-main-btn-b"
-            >
-              <span className="login-main-btn-span-a">Login</span>
-            </button>
+            <Link to="#">
+              <button
+                aria-label="Login"
+                className="login-main-btn-a login-main-btn-b"
+              >
+                <span className="login-main-btn-span-a">Login</span>
+              </button>
             </Link>
           </div>
         </div>
         <div className="header-sell">
-        <Link to="/postad">
-          <button title="Sell" className="header-sell-a">
-          
-            <img
-              src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
-              className=""
-              alt="Sell-img"
-            />
-            <div className="header-sell-c">
+          <Link to="/postad">
+            <button title="Sell" className="header-sell-a">
               <img
-                src="https://www.olx.com.pk/assets/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg"
-                className="header-sell-img-b"
-                alt="lmg-sell"
+                src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
+                className=""
+                alt="Sell-img"
               />
-              <span className="header-sell-span-a header-sell-span-b header-sell-span-c">
-                Sell
-              </span>
-            </div>
-          </button>
+              <div className="header-sell-c">
+                <img
+                  src="https://www.olx.com.pk/assets/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg"
+                  className="header-sell-img-b"
+                  alt="lmg-sell"
+                />
+                <span className="header-sell-span-a header-sell-span-b header-sell-span-c">
+                  Sell
+                </span>
+              </div>
+            </button>
           </Link>
         </div>
       </div>

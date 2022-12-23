@@ -32,33 +32,21 @@ const TryApp = () => {
         <div className="try-app-div-last-colm">
           <div>Get your app today</div>
           <div className="try-app-div-a try-app-div-line-last-colm try-app-div-line-a">
-            <a
-              href="#"
-              
-              rel="noopener noreferrer"
-            >
+            <a href="#" rel="noopener noreferrer">
               <img
                 src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
                 alt="App Store"
                 className="try-app-div-colm-img"
               />
             </a>
-            <a
-              href="#"
-              
-              rel="noopener noreferrer"
-            >
+            <a href="#" rel="noopener noreferrer">
               <img
                 src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
                 alt="Google Play"
                 className="try-app-div-colm-img"
               />
             </a>
-            <a
-              href="#"
-              
-              rel="noopener noreferrer"
-            >
+            <a href="#" rel="noopener noreferrer">
               <img
                 src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
                 alt="App Gallery"

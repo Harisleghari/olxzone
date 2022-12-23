@@ -34,8 +34,8 @@ const MainAd = () => {
           <div className="container carousel-item-custom">
             <div className="carousel-caption text-start carousel-item--caption-custom">
               <img
-                src="https://images.olx.com.pk/thumbnails/309499414-800x600.webp"
-                alt="foodpanda img"
+                src="https://images.olx.com.pk/thumbnails/315145348-800x600.webp"
+                alt="toyota img"
                 loading="auto"
                 className="img-main-ad"
                 style={{ borderRadius: "5px" }}

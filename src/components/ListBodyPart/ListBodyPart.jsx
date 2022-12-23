@@ -2,10 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listbodypart.css";
 
-
 const ListBodyPart = (props) => {
-  
-  
   return (
     <div>
       <div className="container-fluid">
@@ -77,7 +74,9 @@ const ListBodyPart = (props) => {
                   <div>
                     {" "}
                     <b>
-                      <span className="fw-bold box8">Rs {props.detailList.price}</span>
+                      <span className="fw-bold box8">
+                        Rs {props.detailList.price}
+                      </span>
                     </b>
                   </div>
                   <div>
@@ -114,7 +113,9 @@ const ListBodyPart = (props) => {
                     />
                   </div>
                   <div className="m-2 fs-3 fw-normal text-secondary">
-                    <span className="fs-3 fw-normal text-secondary">Haris Leghari</span>
+                    <span className="fs-3 fw-normal text-secondary">
+                      Haris Leghari
+                    </span>
                     <p>Member since jul 2022</p>
                   </div>
                 </div>
@@ -144,9 +145,8 @@ const ListBodyPart = (props) => {
         <div className="row m-3">
           <div className="col-lg-7 col-md-6 col-sm-12">
             <div className="border p-4 rounded w-100 mt-5">
-              
-                <h3 className="fw-bold box9">Detailes</h3>
-              
+              <h3 className="fw-bold box9">Detailes</h3>
+
               <div className="row text-secondary">
                 <div className="col-lg-10 col-md-12 col-sm-12 d-flex justify-content-between">
                   <p>price</p>
@@ -196,11 +196,9 @@ const ListBodyPart = (props) => {
               </div>
               <div className="d-flex justify-content-between">
                 <a href="#">
-                  
                   <button className="box5 box9">SEE LOCATION</button>
                 </a>
                 <a href="#">
-                  
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfq50FJLOts07Zp-uJPVOyLaqDfQuqwDYCsA&usqp=CAU"
                     alt=""

@@ -1,5 +1,3 @@
-import "./homepage.css";
-// import {Link} from "react-router-dom";
 import Header from "../Header/Header.jsx";
 import MainCategories from "../MainCategories/MainCategories.jsx";
 import MainAdd from "../MainAd/MainAd.jsx";
@@ -11,9 +9,9 @@ const HomePage = (props) => {
   return (
     <>
       <Header />
-      <MainCategories/>
+      <MainCategories />
       <MainAdd />
-      <FreshRecommendation/>
+      <FreshRecommendation />
       <TryApp />
       <Footer />
     </>

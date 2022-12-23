@@ -6,30 +6,28 @@ import axios from "axios";
 const PostAd = () => {
   const url = "https://fakestoreapi.com/products";
   const [postData, setPostData] = useState({
-    title: '',
+    title: "",
     price: Number,
-    description: '',
-    image: '',
-    category: ''
+    description: "",
+    image: "",
+    category: "",
   });
 
   const onChangedHandler = (e) => {
     const { name, value } = e.target;
     setPostData((pre) => {
-      return ({...pre,[name]:value})
+      return { ...pre, [name]: value };
     });
   };
 
   const clickButton = (e) => {
     e.preventDefault();
 
-    axios.post(url, postData)
-  .then(res => console.log(res))
-  .catch(err => console.log(err))
+    axios
+      .post(url, postData)
+      .then((res) => console.log(res))
+      .catch((err) => console.log(err));
   };
-
-  
-
 
   // const url = "http://localhost:9000/sell";
   // const [postData, setPostData] = useState({
@@ -106,7 +104,7 @@ const PostAd = () => {
                   </span>
                 </div>
                 <div className="details-form">
-                <div className="details-form-div">
+                  <div className="details-form-div">
                     <label htmlFor="title" className="details-label">
                       <span className="details-span">Ad Category</span>
                     </label>
@@ -223,8 +221,7 @@ const PostAd = () => {
                     </span>
                   </div>
                   <div>
-                  
-                      <div className="details-div-2">
+                    <div className="details-div-2">
                       <input
                         id="image"
                         name="image"
@@ -234,7 +231,6 @@ const PostAd = () => {
                         className="details-div-2-inp"
                         maxLength="70"
                       />
-                    
                     </div>
                     {/* <label className="images-label">
                       <input

@@ -1,10 +1,11 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./maincategories.css";
 import { Link } from "react-router-dom";
-import camelCase from 'camelcase';
+import camelCase from "camelcase";
 import Loader from "../Loader/Loader";
 
 const MainCategories = () => {
@@ -16,46 +17,57 @@ const MainCategories = () => {
     setMode(!mode);
   };
 
-
   useEffect(() => {
-    axios.get("https://fakestoreapi.com/products/categories")
-    .then(response => {
-      setCategories(response.data);
-      setIsLoading(isLoding=false);
-   })
-   .catch((e) => console.log(e));
+    axios
+      .get("https://fakestoreapi.com/products/categories")
+      .then((response) => {
+        setCategories(response.data);
+        setIsLoading((isLoding = false));
+      })
+      .catch((e) => console.log(e));
   }, []);
   return (
     <>
-      {isLoding ? <Loader /> :
-      <div className="main-categories-div">
-      <div className="main-categories-div-a main-categories-div-b">
-      <div className="main-all-categories-div">
-          <div className="main-all-categories-div-a" onClick={clickHandler}>
-            All categories
-            <img
-              src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
-              className="main-all-categories-div-a-img"
-              style={mode ? null : { transform:"rotate(180deg)"}}
-              alt="Dropdown arrow"
-            />
-          </div>
-          <div>
-            <div
-              style={mode ? { display: "none" } : { display: "block" }}
-              id="dropdown"
-            >
-              <div className="all-categories-dropdown-a" aria-label="Categories">
-              {categories.map((item) => {
-                return (
-                  <>
-                  <div className="all-categories-dropdown-a-1">
-                  <div className="all-categories-dropdown-a-1-a">
-                    <Link to={`/listing/${item}`} className="all-categories-dropdown-a-1-a-link">
-                    {camelCase(item, {pascalCase: true})}
-                    </Link>
-                  </div>
-                  {/* <div className="all-categories-dropdown-a-1-a-categories">
+      {isLoding ? (
+        <Loader />
+      ) : (
+        <div className="main-categories-div">
+          <div className="main-categories-div-a main-categories-div-b">
+            <div className="main-all-categories-div">
+              <div className="main-all-categories-div-a" onClick={clickHandler}>
+                All categories
+                <img
+                  src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+                  className="main-all-categories-div-a-img"
+                  style={mode ? null : { transform: "rotate(180deg)" }}
+                  alt="Dropdown arrow"
+                />
+              </div>
+              <div>
+                <div
+                  style={mode ? { display: "none" } : { display: "block" }}
+                  id="dropdown"
+                >
+                  <div
+                    className="all-categories-dropdown-a"
+                    aria-label="Categories"
+                  >
+                    {categories.map((item, index) => {
+                      return (
+                        <>
+                          <div
+                            className="all-categories-dropdown-a-1"
+                            key={index}
+                          >
+                            <div className="all-categories-dropdown-a-1-a">
+                              <Link
+                                to={`/listing/${item}`}
+                                className="all-categories-dropdown-a-1-a-link"
+                              >
+                                <li>{camelCase(item, { pascalCase: true })}</li>
+                              </Link>
+                            </div>
+                            {/* <div className="all-categories-dropdown-a-1-a-categories">
                     <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Mobile Phones
                     </a>
@@ -75,16 +87,12 @@ const MainCategories = () => {
                       Tablets
                     </a>
                   </div> */}
-                </div>
-                </>
-                )
-                
-              })
-              }
+                          </div>
+                        </>
+                      );
+                    })}
 
-
-
-                {/* <div className="all-categories-dropdown-a-1">
+                    {/* <div className="all-categories-dropdown-a-1">
                   <div className="all-categories-dropdown-a-1-a">
                     <a href="#" className="all-categories-dropdown-a-1-a-link">
                       Mobiles
@@ -822,29 +830,27 @@ const MainCategories = () => {
                     </a>
                   </div>
                 </div> */}
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
+            {categories.map((item, index) => {
+              return (
+                <>
+                  <div className="horizontal-categories-list" key={index}>
+                    <Link
+                      to={`/listing/${item}`}
+                      className="all-categories-dropdown-a-1-a-link"
+                    >
+                      {camelCase(item, { pascalCase: true })}
+                    </Link>
+                  </div>
+                </>
+              );
+            })}
 
-
-
-
-        
-        {categories.map((item => {
-          return (
-            <>
-            <div className="horizontal-categories-list">
-            <Link to={`/listing/${item}`} className="all-categories-dropdown-a-1-a-link">
-            {camelCase(item, {pascalCase: true})}
-          </Link>
-            </div>
-            </>
-          )
-        }))}
-
-        {/* <div className="horizontal-categories-list">
+            {/* <div className="horizontal-categories-list">
             <Link to="/listing" className="all-categories-dropdown-a-1-a-link">
             Mobile Phones
           </Link>
@@ -879,9 +885,9 @@ const MainCategories = () => {
             Land &amp; Plots
           </Link>
         </div> */}
-      </div>
-    </div> 
-      }
+          </div>
+        </div>
+      )}
     </>
   );
 };

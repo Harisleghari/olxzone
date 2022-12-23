@@ -3,17 +3,14 @@ import "./listingcard.css";
 import { Link } from "react-router-dom";
 
 const ListingCard = (props) => {
-    return (
-      <>
-      {props.initialPosts.map((items, index)=> {
+  return (
+    <>
+      {props.initialPosts.map((items) => {
         return (
-          <li className="" ariaLabel="Listing" key={items.id}>
+          <li className="" aria-label="Listing" key={items.id}>
             <article className="article-a">
               <div className="article-div-a">
-                <Link
-                  to={`/list/${items.id}`}
-                  title={items.title}
-                >
+                <Link to={`/list/${items.id}`} title={items.title}>
                   <div className="article-div-b"></div>
                 </Link>
                 <picture className="pic-a">
@@ -21,35 +18,29 @@ const ListingCard = (props) => {
                     role="presentation"
                     alt={items.title}
                     title={items.title}
-                    ariaLabel="Cover photo"
-                    dataSrc={items.image}
+                    aria-label="Cover photo"
+                    datasrc={items.image}
                     className="img-ads"
                     src={items.image}
-                    dataWasProcessed="true"
+                    datawasprocessed="true"
                   />
                 </picture>
-                <div className="last-div-a" ariaLabel="Featured">
+                <div className="last-div-a" aria-label="Featured">
                   <span className="featured-a">Featured</span>
                 </div>
               </div>
               <div className="aeticle-last-div-a aeticle-last-div-b">
-                <Link
-                  to="/list"
-                  title={items.title}
-                >
+                <Link to="/list" title={items.title}>
                   <div className="article-div-b"></div>
                 </Link>
                 <div className="f3">
-                  <div className="f3-div-a" ariaLabel="Title">
+                  <div className="f3-div-a" aria-label="Title">
                     {items.title}
                   </div>
-                  <div className="price-div-a" ariaLabel="Price">
+                  <div className="price-div-a" aria-label="Price">
                     <span>Rs {items.price}</span>
                   </div>
-                  <Link
-                    to="/list"
-                    title={items.title}
-                  >
+                  <Link to="/list" title={items.title}>
                     <div className="article-div-b"></div>
                   </Link>
                   <div className="ef">
@@ -64,11 +55,11 @@ const ListingCard = (props) => {
                 </div>
                 <div className="address">
                   {/* <div className="address-a">
-                    <span className="address-a-span" ariaLabel="Location">
+                    <span className="address-a-span" aria-label="Location">
                       Sargodha, Punjab<span className="address-b-span">•</span>
                     </span>
                     <span className="address-c-span">
-                      <span ariaLabel="Creation date">4 weeks ago</span>
+                      <span aria-label="Creation date">4 weeks ago</span>
                     </span>
                   </div> */}
                 </div>
@@ -76,13 +67,10 @@ const ListingCard = (props) => {
               </div>
             </article>
           </li>
-        )
-      }
-        
-    )
-      }
-      </>
-    )
-}
+        );
+      })}
+    </>
+  );
+};
 
 export default ListingCard;

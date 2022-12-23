@@ -7,7 +7,9 @@ const Footer = () => {
       <div className="footer-div-a">
         <div className="footer-div-b footer-div-c">
           <section className="footer-section-a">
-            <span className="footer-span-a footer-span-b footer-span-c">Popular Categories</span>
+            <span className="footer-span-a footer-span-b footer-span-c">
+              Popular Categories
+            </span>
             <ul className="footer-ul">
               <li>
                 <a href="#" className="footer-ul-anchor">
@@ -32,7 +34,9 @@ const Footer = () => {
             </ul>
           </section>
           <section className="footer-section-a">
-            <span className="footer-spna-a footer-span-b footer-span-c">Trending Searches</span>
+            <span className="footer-spna-a footer-span-b footer-span-c">
+              Trending Searches
+            </span>
             <ul className="footer-ul">
               <li>
                 <a href="#" className="footer-ul-anchor">
@@ -57,7 +61,9 @@ const Footer = () => {
             </ul>
           </section>
           <section className="footer-section-a">
-            <span className="footer-spna-a footer-span-b footer-span-c">About Us</span>
+            <span className="footer-spna-a footer-span-b footer-span-c">
+              About Us
+            </span>
             <ul className="footer-ul">
               <li>
                 <a href="#" className="footer-ul-anchor">
@@ -70,25 +76,21 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="footer-ul-anchor"
-                >
+                <a href="#" className="footer-ul-anchor">
                   <span className="footer-ul-span">Contact Us</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="footer-ul-anchor"
-                >
+                <a href="#" className="footer-ul-anchor">
                   <span className="footer-ul-span">OLX for Businesses</span>
                 </a>
               </li>
             </ul>
           </section>
           <section className="footer-section-a">
-            <span className="footer-spna-a footer-span-b footer-span-c">OLX</span>
+            <span className="footer-spna-a footer-span-b footer-span-c">
+              OLX
+            </span>
             <ul className="footer-ul">
               <li>
                 <a href="#" className="footer-ul-anchor">
@@ -101,61 +103,41 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="footer-ul-anchor"
-                >
+                <a href="#" className="footer-ul-anchor">
                   <span className="footer-ul-span">Terms of use</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="footer-ul-anchor"
-                >
+                <a href="#" className="footer-ul-anchor">
                   <span className="footer-ul-span">Privacy Policy</span>
                 </a>
               </li>
             </ul>
           </section>
           <section className="footer-section-b">
-            <span className="footer-spna-a footer-span-b footer-span-c">Follow us</span>
+            <span className="footer-spna-a footer-span-b footer-span-c">
+              Follow us
+            </span>
             <div className="footer-icons-a footer-icons-b footer-icons-c">
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
                   alt="Facebook Logo"
                 />
               </a>
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
                   alt="Twitter Logo"
                 />
               </a>
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
                   alt="Youtube Logo"
                 />
               </a>
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
                   alt="Instagram Logo"
@@ -163,33 +145,21 @@ const Footer = () => {
               </a>
             </div>
             <div className="footer-icons-a footer-apps-a footer-icons-c">
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
                   alt="App Store"
                   className="footer-apps-imges"
                 />
               </a>
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
                   alt="Google Play"
                   className="footer-apps-imges"
                 />
               </a>
-              <a
-                href="#"
-                
-                rel="noopener noreferrer"
-              >
+              <a href="#" rel="noopener noreferrer">
                 <img
                   src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
                   alt="App Gallery"

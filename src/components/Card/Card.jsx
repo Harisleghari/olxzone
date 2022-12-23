@@ -3,18 +3,14 @@ import "./card.css";
 import { Link } from "react-router-dom";
 
 const Card = (props) => {
-
-      return (
-       <>
-        {props.initialPosts.map((items, index)=> {
-          return (
-            <li className="" aria-label="Listing" key={items.id}>
+  return (
+    <>
+      {props.initialPosts.map((items, index) => {
+        return (
+          <li aria-label="Listing" key={items.id}>
             <article className="main-list-articles">
               <div className="main-list-articles-inside-div">
-                <Link
-                  to={`/list/${items.id}`}
-                  title={items.title}
-                >
+                <Link to={`/list/${items.id}`} title={items.title}>
                   <div className="main-list-arcticles-anchor-inside-div"></div>
                 </Link>
                 <picture className="main-list-arcticles-images">
@@ -30,23 +26,23 @@ const Card = (props) => {
                 <div className="main-list-articles-inside-div-images-1-simple main-list-articles-inside-div-images-2-simple"></div>
               </div>
               <div className="main-list-articles-inside-2nd-div">
-                <Link
-                  to={`/list/${items.id}`}
-                  title={items.title}
-                >
+                <Link to={`/list/${items.id}`} title={items.title}>
                   <div className="main-list-arcticles-anchor-inside-div"></div>
                 </Link>
                 <div className="main-list-articles-inside-2nd-div-1">
-                  <div className="main-list-articles-inside-2nd-div-1-a" aria-label="Title">
+                  <div
+                    className="main-list-articles-inside-2nd-div-1-a"
+                    aria-label="Title"
+                  >
                     {items.title}
                   </div>
-                  <div className="main-list-articles-inside-2nd-div-price" aria-label="Price">
+                  <div
+                    className="main-list-articles-inside-2nd-div-price"
+                    aria-label="Price"
+                  >
                     <span>Rs {items.price}</span>
                   </div>
-                  <Link
-                    to={`/list/${items.id}`}
-                    title={items.title}
-                  >
+                  <Link to={`/list/${items.id}`} title={items.title}>
                     <div className="main-list-arcticles-anchor-inside-div"></div>
                   </Link>
                   <div className="main-list-articles-inside-2nd-div-1-b">
@@ -72,12 +68,10 @@ const Card = (props) => {
               </div>
             </article>
           </li>
-          );
-        })}
-       </>
-
-        
-    )
-}
+        );
+      })}
+    </>
+  );
+};
 
 export default Card;

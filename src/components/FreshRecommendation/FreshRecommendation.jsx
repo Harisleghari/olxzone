@@ -10,7 +10,7 @@ import axios from "axios";
 import Loader from "../Loader/Loader";
 
 const FreshRecommendation = (props) => {
-  let [isLoding, setIsLoading] = useState(true)
+  let [isLoding, setIsLoading] = useState(true);
   const [post, setPost] = useState([]);
   const [isCompleted, setIsCompleted] = useState(false);
   const [index, setIndex] = useState(12);
@@ -29,31 +29,30 @@ const FreshRecommendation = (props) => {
       .get("https://fakestoreapi.com/products")
       .then((response) => {
         setPost(response.data);
-        setIsLoading(isLoding=false);
+        setIsLoading((isLoding = false));
       })
       .catch((e) => console.log(e));
   }, []);
 
   return (
     <>
-      {isLoding ? <Loader /> :
-      <div className="main-fresh-recommendation-wrap-a main-fresh-recommendation-wrap-b main-fresh-recommendation-wrap-c main-fresh-recommendation-wrap-d main-fresh-recommendation-wrap-e">
-      <ScrollToTopButton />
-      <div className="main-list-fresh-recom">
-        <span className="main-list-fresh-recom-name-a">
-          Fresh recommendations
-        </span>
-        <ul className="main-list-ul-a">
-          <Card initialPosts={initialPosts} />
-        </ul>
-        <LoadMore isCompleted={isCompleted} loadMore={loadMore} />
-      </div>
-
-  
-    </div> 
-      }
+      {isLoding ? (
+        <Loader />
+      ) : (
+        <div className="main-fresh-recommendation-wrap-a">
+          <ScrollToTopButton />
+          <div className="main-list-fresh-recom">
+            <span className="main-list-fresh-recom-name-a">
+              Fresh recommendations
+            </span>
+            <ul className="main-list-ul-a">
+              <Card initialPosts={initialPosts} />
+            </ul>
+            <LoadMore isCompleted={isCompleted} loadMore={loadMore} />
+          </div>
+        </div>
+      )}
     </>
-    
   );
 };
 

@@ -1,42 +1,42 @@
 .main-back-to-top-btn-a {
-    background: none;
-    border: none;
-    appearance: none;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    color: inherit;
+  background: none;
+  border: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
 }
 
 .main-back-to-top-btn-b {
-    color: #002f34;
-    position: fixed;
-    top: 11rem;
-    left: 50%;
-    right: unset;
-    bottom: unset;
-    z-index: 6;
-    min-width: 15rem;
-    background-color: #fff;
-    border: none;
-    border-radius: 5rem;
-    box-shadow: 0 0.2rem 0.8rem 0 rgb(0 0 0 / 15%);
-    padding: 0 1rem;
-    height: 4.4rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    transform: translate(-50%);
+  color: #002f34;
+  position: fixed;
+  top: 11rem;
+  left: 50%;
+  right: unset;
+  bottom: unset;
+  z-index: 6;
+  min-width: 15rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.2rem 0.8rem 0 rgb(0 0 0 / 15%);
+  padding: 0 1rem;
+  height: 4.4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translate(-50%);
 }
 
 .main-back-to-top-btn-img {
-    height: 2rem;
-    margin: 7px;
+  height: 2rem;
+  margin: 7px;
 }
 
 .main-back-to-top-btn-span {
-    height: 2rem;
-    font-size: 1.4rem;
-    letter-spacing: .05rem;
-    font-weight: 700;
+  height: 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
 }

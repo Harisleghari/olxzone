@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listingfilter.css";
-// import {Link} from "react-router-dom"
 
 const ListingFilter = (props) => {
   return (
@@ -18,7 +17,7 @@ const ListingFilter = (props) => {
               <span className="filters-span-a ">All categories</span>
             </div>
           </a>
-          
+
           {/* <a href="#" rel="follow">
             <div style={{ marginLeft: "16px" }}>
               <div className="cate-1">
@@ -70,19 +69,20 @@ const ListingFilter = (props) => {
               <div className="feb-div-1-a">
                 <div className="feb-div-1-b">
                   <input
-                    spellcheck="false"
+                    spellCheck="false"
                     className="feb-div-inp"
-                    autocomplete="location-search"
+                    autoComplete="nope"
                     placeholder="Search city, area or locality"
                     value="Pakistan"
+                    readOnly
                   />
-                  <div className="listing-div-body-2-a feb-div-1-c">
+                  {/* <div className="listing-div-body-2-a feb-div-1-c">
                     <img
                       src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
                       alt="Dropdown trigger"
                       className="feb-div-img"
                     />
-                  </div>
+                  </div> */}
                 </div>
                 {/* <div className="ff"></div> */}
               </div>
@@ -94,7 +94,9 @@ const ListingFilter = (props) => {
             <div style={{ marginLeft: "0px" }}>
               <a href="#">
                 <div className="cate-1">
-                  <span className="filters-span-a filters-span-b">Pakistan</span>
+                  <span className="filters-span-a filters-span-b">
+                    Pakistan
+                  </span>
                 </div>
               </a>
             </div>
@@ -162,17 +164,18 @@ const ListingFilter = (props) => {
               <div className="feb-div-1-a bef-div-1">
                 <div className="feb-div-1-b">
                   <input
-                    spellcheck="false"
+                    spellCheck="false"
                     className="feb-div-inp"
-                    autocomplete="nope"
+                    autoComplete="nope"
                     type="text"
                     placeholder="Min"
-                    value="10"
+                    value={props.minPrice}
+                    readOnly
                   />
                 </div>
                 <div className="ff">
                   <span className="ff-span-a">
-                    <span className="ff-span-b">PKR 10</span>
+                    <span className="ff-span-b">Min {props.minPrice}</span>
                   </span>
                 </div>
               </div>
@@ -181,21 +184,30 @@ const ListingFilter = (props) => {
               <div className="feb-div-1-a bef-div-1">
                 <div className="feb-div-1-b">
                   <input
-                    spellcheck="false"
+                    spellCheck="false"
                     className="feb-div-inp"
-                    autocomplete="nope"
+                    autoComplete="nope"
                     type="text"
                     placeholder="Max"
-                    value="1,000,000"
+                    value={props.maxPrice}
+                    readOnly
                   />
                 </div>
                 <div className="ff">
                   <span className="ff-span-a">
-                    <span className="ff-span-b">PKR 10 Lacs</span>
+                    <span className="ff-span-b">Max {props.maxPrice}</span>
                   </span>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="range-a">
+            <input
+              type="range"
+              name="price"
+              min={props.minPrice}
+              max={props.maxPrice}
+            />
           </div>
         </div>
       </div>

@@ -6,11 +6,7 @@ const ListHeaderPath = () => {
   return (
     <div className="list-header-div">
       <div className="bread-crumb" aria_label="Breadcrumb">
-        <ul
-        
-          itemType="https://schema.org/BreadcrumbList"
-          className="list-ul"
-        >
+        <ul itemType="https://schema.org/BreadcrumbList" className="list-ul">
           {/* <li
           
             itemProp="itemListElement"
