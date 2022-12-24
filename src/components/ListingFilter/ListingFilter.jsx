@@ -202,14 +202,14 @@ const ListingFilter = (props) => {
               </div>
             </div>
           </div>
-          <div className="range-a">
+          {/* <div className="range-a">
             <input
               type="range"
               name="price"
               min={props.minPrice}
               max={props.maxPrice}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <div className="cate-filters">

@@ -43,7 +43,7 @@
   right: 0;
   top: calc(100% + 0.8rem);
   max-width: 1280px;
-  min-width: 750px;
+  min-width: 320px;
   padding: 1.6rem;
   background-color: #fff;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
@@ -79,4 +79,12 @@
 .horizontal-categories-list {
   display: inline-block;
   margin: 0 0.8rem;
+}
+
+/* Media Quries */
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .main-categories-div-a >:not(:first-child) {
+    display: none;
+  }  
 }

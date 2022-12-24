@@ -109,3 +109,11 @@
   margin-right: 0.8rem;
   font-weight: 700;
 }
+
+/* Media Quries */
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .footer-div-c {
+    display: block;
+  }  
+}

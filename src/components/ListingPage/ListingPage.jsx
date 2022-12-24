@@ -18,7 +18,10 @@ const ListingPage = () => {
     (initialVal, curVal) => Math.max(initialVal, curVal),
     0
   );
-  let minPrice = 0;
+  let minPrice = priceArray.reduce(
+    (initialVal, curVal) => Math.min(initialVal, curVal),
+    maxPrice
+  );
 
   // Get the category param from the URL.
   const { category } = useParams();

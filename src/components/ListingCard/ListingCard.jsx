@@ -30,7 +30,7 @@ const ListingCard = (props) => {
                 </div>
               </div>
               <div className="aeticle-last-div-a aeticle-last-div-b">
-                <Link to="/list" title={items.title}>
+                <Link to={`/list/${items.id}`} title={items.title}>
                   <div className="article-div-b"></div>
                 </Link>
                 <div className="f3">
@@ -40,7 +40,7 @@ const ListingCard = (props) => {
                   <div className="price-div-a" aria-label="Price">
                     <span>Rs {items.price}</span>
                   </div>
-                  <Link to="/list" title={items.title}>
+                  <Link to={`/list/${items.id}`} title={items.title}>
                     <div className="article-div-b"></div>
                   </Link>
                   <div className="ef">

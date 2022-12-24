@@ -151,6 +151,14 @@ ul {
 
 /* Media Quries */
 
-@media (min-width: 300px) and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 720px) {
+  .main-list-articles-inside-2nd-div-1-a {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    width: 60%;
+  }
   
+  .main-list-articles-inside-2nd-div {
+    padding: 0%;
+  }
 }

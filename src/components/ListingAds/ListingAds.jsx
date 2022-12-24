@@ -55,14 +55,14 @@ const ListingAds = (props) => {
                   alt="Grid layout"
                 />
               </button>
-              <button className="span-btn-a span-btn-b">
+              {/* <button className="span-btn-a span-btn-b">
                 <img
                   src="https://www.olx.com.pk/assets/iconGallery_noinline.0812d3e7194bb21f539ef9e77bdd3a1c.svg"
                   alt="Gallery layout"
                 />
-              </button>
+              </button> */}
             </div>
-            <div className="listing-div-a-1 short-a listing-div-a-2">
+            {/* <div className="listing-div-a-1 short-a listing-div-a-2">
               <button className="span-btn-a">
                 <span className="view-side-span-a view-side-span-b view-side-span-c">
                   Sort by:{" "}
@@ -75,7 +75,7 @@ const ListingAds = (props) => {
                 />
               </button>
               <div></div>
-            </div>
+            </div> */}
           </div>
         </div>
         <ul className="ul-div-a ul-div-b">

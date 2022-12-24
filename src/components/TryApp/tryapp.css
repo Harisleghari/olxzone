@@ -72,6 +72,8 @@
   height: 4rem;
 }
 
+/* Media Quries */
+
 @media (min-width: 320px) and (max-width: 1215px) {
 
   .try-app-div-last-colm > :not(:first-child) {
@@ -103,5 +105,11 @@
 @media (min-width: 600px) and (max-width: 900px) {
   .try-app-div-d {
     width: 50%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .try-app-div-a {
+    display: none;
   }
 }
