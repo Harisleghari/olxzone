@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./listingfilter.css";
+import {Link} from "react-router-dom"
 
 const ListingFilter = (props) => {
   return (
@@ -12,11 +13,11 @@ const ListingFilter = (props) => {
           <span className="span-a span-b span-c">Categories</span>
         </div>
         <div>
-          <a href="#" rel="follow">
+          <Link to="#" rel="follow">
             <div className="cate-1">
               <span className="filters-span-a ">All categories</span>
             </div>
-          </a>
+          </Link>
 
           {/* <a href="#" rel="follow">
             <div style={{ marginLeft: "16px" }}>

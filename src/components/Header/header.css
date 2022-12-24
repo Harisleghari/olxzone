@@ -335,3 +335,53 @@ a {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* Media Quries */
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .header-div-b-2 {
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.login-main-a {
+  margin-top: 1rem;
+  margin-left: 0;
+}
+.header-sell {
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
+.sell-img-a {
+  width: 70px;
+}
+
+.header-sell-c {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.header-a {
+  background-color: #f7f8f8;
+  position: static;
+  top: 0;
+  z-index: 6;
+  margin-top: -10px;
+  /* height: 20rem; */
+}
+}
+
+@media (min-width: 420px) and (max-width: 720px) {
+  .header-inp-location {
+    min-width: 40.0rem;
+    margin: 1rem 0 1rem 0;
+}
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .header-inp-location {
+    min-width: 30.0rem;
+    margin: 1rem 0 1rem 0;
+}
+}

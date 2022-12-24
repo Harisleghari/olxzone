@@ -5,7 +5,7 @@ import MainCategories from "../MainCategories/MainCategories.jsx";
 import Footer from "../Footer/Footer.jsx";
 import ListingHeadPart from "../ListingHeadPart/ListingHeadPart.jsx";
 import ListingBodyPart from "../ListingBodyPart/ListingBodyPart.jsx";
-import Loader from "../Loader/Loader.js";
+import Loader from "../Loader/Loader.jsx";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";

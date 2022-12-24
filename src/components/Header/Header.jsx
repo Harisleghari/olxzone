@@ -192,7 +192,7 @@ const Header = () => {
             <button title="Sell" className="header-sell-a">
               <img
                 src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
-                className=""
+                className="sell-img-a"
                 alt="Sell-img"
               />
               <div className="header-sell-c">

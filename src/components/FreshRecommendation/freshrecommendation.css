@@ -25,3 +25,14 @@
   flex-wrap: wrap;
   margin: 0 0 0.8rem;
 }
+
+/* Media Quries */
+
+@media (min-width: 900px) and (max-width: 1030px) {
+  .main-list-ul-a {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10rem 0.8rem;
+  }
+}

@@ -71,3 +71,37 @@
   width: 12.8rem;
   height: 4rem;
 }
+
+@media (min-width: 320px) and (max-width: 1215px) {
+
+  .try-app-div-last-colm > :not(:first-child) {
+    display: inline-block;
+  }
+
+  .try-app-div-d {
+    width: auto;
+  }
+  
+}
+
+@media (min-width: 600px) and (max-width: 1080px) {
+
+  .try-app-div-colm-img {
+    width: 9.8rem;
+    height: 2rem;
+  }
+
+  .try-app-div-last-colm div:first-child {
+    font-size: 1.0rem;
+  }
+  
+  .try-app-div-last-colm {
+    margin-left: 0.2rem;
+}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .try-app-div-d {
+    width: 50%;
+  }
+}

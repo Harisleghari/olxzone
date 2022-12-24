@@ -147,3 +147,10 @@ ul {
 ul {
   list-style: none;
 }
+
+
+/* Media Quries */
+
+@media (min-width: 300px) and (max-width: 900px) {
+  
+}

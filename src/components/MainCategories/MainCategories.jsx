@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./maincategories.css";
 import { Link } from "react-router-dom";
-import camelCase from "camelcase";
 import Loader from "../Loader/Loader";
 
 const MainCategories = () => {
@@ -53,6 +52,13 @@ const MainCategories = () => {
                     aria-label="Categories"
                   >
                     {categories.map((item, index) => {
+                      const str = item;
+                      const arr = str.split(" ");
+                      for (let i = 0; i < arr.length; i++) {
+                        arr[i] =
+                          arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+                      }
+                      const str2 = arr.join(" ");
                       return (
                         <>
                           <div
@@ -64,7 +70,8 @@ const MainCategories = () => {
                                 to={`/listing/${item}`}
                                 className="all-categories-dropdown-a-1-a-link"
                               >
-                                <li>{camelCase(item, { pascalCase: true })}</li>
+                                {/* <li>{camelCase(item, { pascalCase: true })}</li> */}
+                                {str2}
                               </Link>
                             </div>
                             {/* <div className="all-categories-dropdown-a-1-a-categories">
@@ -836,6 +843,12 @@ const MainCategories = () => {
             </div>
 
             {categories.map((item, index) => {
+              const str = item;
+              const arr = str.split(" ");
+              for (let i = 0; i < arr.length; i++) {
+                arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+              }
+              const str2 = arr.join(" ");
               return (
                 <>
                   <div className="horizontal-categories-list" key={index}>
@@ -843,7 +856,7 @@ const MainCategories = () => {
                       to={`/listing/${item}`}
                       className="all-categories-dropdown-a-1-a-link"
                     >
-                      {camelCase(item, { pascalCase: true })}
+                      {str2}
                     </Link>
                   </div>
                 </>

@@ -9,8 +9,8 @@ export default function Loader() {
       ariaLabel="dna-loading"
       wrapperStyle={{}}
       wrapperClass="dna-wrapper"
-      ballColors={["#ff0000", "#00ff00", "#0000ff"]}
-      backgroundColor="#F4442E"
+      ballColors={["#ff0000", "#002f34", "#3a77ff"]}
+      backgroundColor="#fff"
     />
   );
 }
