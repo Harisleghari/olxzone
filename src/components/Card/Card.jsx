@@ -45,15 +45,7 @@ const Card = (props) => {
                   <Link to={`/list/${items.id}`} title={items.title}>
                     <div className="main-list-arcticles-anchor-inside-div"></div>
                   </Link>
-                  <div className="main-list-articles-inside-2nd-div-1-b">
-                    <div className="main-fresh-recommendation-wrap-a">
-                      <img
-                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="main-list-articles-inside-2nd-div-1-b-img"
-                        alt="favoriteIconUnselected"
-                      />
-                    </div>
-                  </div>
+                  
                 </div>
                 <div className="main-list-articles-inside-2nd-div-2">
                   <div className="main-list-articles-inside-2nd-div-2-a">

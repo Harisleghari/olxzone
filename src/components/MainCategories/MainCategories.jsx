@@ -5,12 +5,10 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./maincategories.css";
 import { Link } from "react-router-dom";
-import Loader from "../Loader/Loader";
 
 const MainCategories = () => {
   const [mode, setMode] = useState(true);
   const [categories, setCategories] = useState([]);
-  let [isLoding, setIsLoading] = useState(true);
 
   const clickHandler = () => {
     setMode(!mode);
@@ -21,15 +19,12 @@ const MainCategories = () => {
       .get("https://fakestoreapi.com/products/categories")
       .then((response) => {
         setCategories(response.data);
-        setIsLoading((isLoding = false));
       })
       .catch((e) => console.log(e));
   }, []);
   return (
     <>
-      {isLoding ? (
-        <Loader />
-      ) : (
+      
         <div className="main-categories-div">
           <div className="main-categories-div-a main-categories-div-b">
             <div className="main-all-categories-div">
@@ -900,7 +895,7 @@ const MainCategories = () => {
         </div> */}
           </div>
         </div>
-      )}
+     
     </>
   );
 };

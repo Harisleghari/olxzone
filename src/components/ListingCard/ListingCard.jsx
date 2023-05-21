@@ -43,15 +43,7 @@ const ListingCard = (props) => {
                   <Link to={`/list/${items.id}`} title={items.title}>
                     <div className="article-div-b"></div>
                   </Link>
-                  <div className="ef">
-                    <div className="listing-div-a-1">
-                      <img
-                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        className="img-heart"
-                        alt="favoriteIconUnselected"
-                      />
-                    </div>
-                  </div>
+                  
                 </div>
                 <div className="address">
                   {/* <div className="address-a">

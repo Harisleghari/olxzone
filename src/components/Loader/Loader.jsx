@@ -4,8 +4,8 @@ export default function Loader() {
   return (
     <FidgetSpinner
       visible={true}
-      height="650"
-      width="1280"
+      height="300"
+      width="300"
       ariaLabel="dna-loading"
       wrapperStyle={{}}
       wrapperClass="dna-wrapper"

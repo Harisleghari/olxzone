@@ -156,9 +156,14 @@ ul {
     font-size: 0.9rem;
     line-height: 0.9rem;
     width: 60%;
+    padding: 4px;
   }
   
   .main-list-articles-inside-2nd-div {
     padding: 0%;
+  }
+
+  .main-list-articles-inside-2nd-div-price {
+    padding: 4px;
   }
 }

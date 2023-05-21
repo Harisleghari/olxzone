@@ -84,12 +84,7 @@ const ListBodyPart = (props) => {
                       src="https://www.olx.com.pk/assets/iconShare_noinline.41d8fa8326fea7b27bc24d3eca8b598a.svg"
                       alt="icon share"
                     />
-                    <img
-                      src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                      alt=""
-                      width="24px"
-                      height="24px"
-                    />
+                    
                   </div>
                 </div>
                 <p className="text-secondary">{props.detailList.description}</p>
